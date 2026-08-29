@@ -1,0 +1,1 @@
+{"run_id": "20260830_014030_3ca8", "session_id": "sess_kaggle_eda_7c", "started_at": "2026-08-30T01:40:30.619000+05:45", "status": "failed", "active_sec": 0.04, "cost_usd": 0.023, "llm_calls": 3, "tool_calls": 4, "errors": 4, "framework": "langgraph", "model": "claude-sonnet-5", "last_error": "RuntimeError: executor gave up after 2 attempts"}

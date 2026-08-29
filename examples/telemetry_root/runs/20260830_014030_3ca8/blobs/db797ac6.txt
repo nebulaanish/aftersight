@@ -1,0 +1,2803 @@
+[system]
+You are the planner. Below is the laboratory's full corpus index.
+
+## natural_scenes_2024_0000
+  spikes.npy  (3271, 16937)  int16
+## spont_2025_0001
+  spikes.npy  (1986, 21559)  int16
+## spont_2026_0002
+  spikes.npy  (6791, 5900)  int16
+## drifting_gratings_2024_0003
+  spikes.npy  (1414, 6816)  int16
+## sparse_noise_2025_0004
+  spikes.npy  (7651, 6289)  int16
+## drifting_gratings_2026_0005
+  spikes.npy  (2286, 17910)  int16
+## spont_2024_0006
+  spikes.npy  (10064, 8056)  int16
+## drifting_gratings_2025_0007
+  spikes.npy  (11132, 6027)  int16
+## sparse_noise_2026_0008
+  spikes.npy  (1612, 11244)  int16
+## spont_2024_0009
+  spikes.npy  (9920, 8363)  int16
+## natural_scenes_2025_0010
+  spikes.npy  (7667, 8726)  int16
+## spont_2026_0011
+  spikes.npy  (10153, 14108)  int16
+## drifting_gratings_2024_0012
+  spikes.npy  (2488, 10156)  int16
+## natural_scenes_2025_0013
+  spikes.npy  (2396, 21948)  int16
+## spont_2026_0014
+  spikes.npy  (10046, 5953)  int16
+## drifting_gratings_2024_0015
+  spikes.npy  (8933, 21423)  int16
+## sparse_noise_2025_0016
+  spikes.npy  (5946, 19256)  int16
+## sparse_noise_2026_0017
+  spikes.npy  (6724, 13822)  int16
+## drifting_gratings_2024_0018
+  spikes.npy  (3745, 11998)  int16
+## spont_2025_0019
+  spikes.npy  (10211, 13838)  int16
+## sparse_noise_2026_0020
+  spikes.npy  (6427, 18707)  int16
+## natural_scenes_2024_0021
+  spikes.npy  (10777, 6398)  int16
+## spont_2025_0022
+  spikes.npy  (9187, 17701)  int16
+## drifting_gratings_2026_0023
+  spikes.npy  (6404, 8980)  int16
+## sparse_noise_2024_0024
+  spikes.npy  (7709, 5284)  int16
+## spont_2025_0025
+  spikes.npy  (9943, 14280)  int16
+## natural_scenes_2026_0026
+  spikes.npy  (6537, 20275)  int16
+## sparse_noise_2024_0027
+  spikes.npy  (1926, 7066)  int16
+## natural_scenes_2025_0028
+  spikes.npy  (8567, 6129)  int16
+## spont_2026_0029
+  spikes.npy  (5872, 18602)  int16
+## natural_scenes_2024_0030
+  spikes.npy  (7120, 15370)  int16
+## spont_2025_0031
+  spikes.npy  (8364, 15647)  int16
+## drifting_gratings_2026_0032
+  spikes.npy  (10809, 7836)  int16
+## sparse_noise_2024_0033
+  spikes.npy  (1765, 11150)  int16
+## natural_scenes_2025_0034
+  spikes.npy  (2919, 12113)  int16
+## sparse_noise_2026_0035
+  spikes.npy  (7205, 20269)  int16
+## spont_2024_0036
+  spikes.npy  (3525, 18718)  int16
+## sparse_noise_2025_0037
+  spikes.npy  (9802, 13104)  int16
+## drifting_gratings_2026_0038
+  spikes.npy  (7853, 13123)  int16
+## sparse_noise_2024_0039
+  spikes.npy  (6678, 16466)  int16
+## drifting_gratings_2025_0040
+  spikes.npy  (3272, 6719)  int16
+## drifting_gratings_2026_0041
+  spikes.npy  (3278, 11600)  int16
+## drifting_gratings_2024_0042
+  spikes.npy  (997, 19891)  int16
+## drifting_gratings_2025_0043
+  spikes.npy  (5104, 13238)  int16
+## spont_2026_0044
+  spikes.npy  (3186, 17728)  int16
+## natural_scenes_2024_0045
+  spikes.npy  (10791, 14440)  int16
+## drifting_gratings_2025_0046
+  spikes.npy  (9245, 5769)  int16
+## sparse_noise_2026_0047
+  spikes.npy  (11950, 16857)  int16
+## sparse_noise_2024_0048
+  spikes.npy  (7336, 16914)  int16
+## spont_2025_0049
+  spikes.npy  (8689, 17121)  int16
+## spont_2026_0050
+  spikes.npy  (3922, 6206)  int16
+## drifting_gratings_2024_0051
+  spikes.npy  (8019, 9318)  int16
+## spont_2025_0052
+  spikes.npy  (6371, 5722)  int16
+## spont_2026_0053
+  spikes.npy  (803, 8956)  int16
+## spont_2024_0054
+  spikes.npy  (6757, 4835)  int16
+## spont_2025_0055
+  spikes.npy  (4207, 16328)  int16
+## drifting_gratings_2026_0056
+  spikes.npy  (11194, 12265)  int16
+## natural_scenes_2024_0057
+  spikes.npy  (10667, 15932)  int16
+## sparse_noise_2025_0058
+  spikes.npy  (2812, 7779)  int16
+## sparse_noise_2026_0059
+  spikes.npy  (8434, 19741)  int16
+## sparse_noise_2024_0060
+  spikes.npy  (5909, 6814)  int16
+## drifting_gratings_2025_0061
+  spikes.npy  (2474, 15227)  int16
+## natural_scenes_2026_0062
+  spikes.npy  (8641, 9290)  int16
+## spont_2024_0063
+  spikes.npy  (4162, 21309)  int16
+## natural_scenes_2025_0064
+  spikes.npy  (3201, 21798)  int16
+## spont_2026_0065
+  spikes.npy  (9452, 13767)  int16
+## spont_2024_0066
+  spikes.npy  (5078, 20986)  int16
+## natural_scenes_2025_0067
+  spikes.npy  (3536, 15655)  int16
+## drifting_gratings_2026_0068
+  spikes.npy  (9525, 21746)  int16
+## natural_scenes_2024_0069
+  spikes.npy  (11227, 11308)  int16
+## drifting_gratings_2025_0070
+  spikes.npy  (4722, 17129)  int16
+## drifting_gratings_2026_0071
+  spikes.npy  (4075, 20961)  int16
+## sparse_noise_2024_0072
+  spikes.npy  (6625, 4949)  int16
+## spont_2025_0073
+  spikes.npy  (5377, 19474)  int16
+## natural_scenes_2026_0074
+  spikes.npy  (3972, 15281)  int16
+## sparse_noise_2024_0075
+  spikes.npy  (6526, 15948)  int16
+## spont_2025_0076
+  spikes.npy  (4412, 7347)  int16
+## drifting_gratings_2026_0077
+  spikes.npy  (8501, 10445)  int16
+## natural_scenes_2024_0078
+  spikes.npy  (4148, 19815)  int16
+## spont_2025_0079
+  spikes.npy  (8655, 15272)  int16
+## spont_2026_0080
+  spikes.npy  (11623, 7929)  int16
+## sparse_noise_2024_0081
+  spikes.npy  (4065, 19664)  int16
+## drifting_gratings_2025_0082
+  spikes.npy  (7909, 14895)  int16
+## spont_2026_0083
+  spikes.npy  (7285, 19176)  int16
+## sparse_noise_2024_0084
+  spikes.npy  (2191, 9205)  int16
+## drifting_gratings_2025_0085
+  spikes.npy  (2881, 4902)  int16
+## drifting_gratings_2026_0086
+  spikes.npy  (10479, 19248)  int16
+## drifting_gratings_2024_0087
+  spikes.npy  (10820, 19543)  int16
+## natural_scenes_2025_0088
+  spikes.npy  (3354, 21978)  int16
+## drifting_gratings_2026_0089
+  spikes.npy  (1150, 4466)  int16
+## spont_2024_0090
+  spikes.npy  (9427, 8562)  int16
+## sparse_noise_2025_0091
+  spikes.npy  (3991, 10915)  int16
+## spont_2026_0092
+  spikes.npy  (4926, 10972)  int16
+## natural_scenes_2024_0093
+  spikes.npy  (9011, 11881)  int16
+## natural_scenes_2025_0094
+  spikes.npy  (5049, 21837)  int16
+## sparse_noise_2026_0095
+  spikes.npy  (2947, 5995)  int16
+## natural_scenes_2024_0096
+  spikes.npy  (8306, 20933)  int16
+## sparse_noise_2025_0097
+  spikes.npy  (9019, 8284)  int16
+## drifting_gratings_2026_0098
+  spikes.npy  (9377, 20729)  int16
+## spont_2024_0099
+  spikes.npy  (8011, 10000)  int16
+## spont_2025_0100
+  spikes.npy  (3254, 9647)  int16
+## drifting_gratings_2026_0101
+  spikes.npy  (8557, 7943)  int16
+## spont_2024_0102
+  spikes.npy  (6140, 20985)  int16
+## sparse_noise_2025_0103
+  spikes.npy  (2538, 5861)  int16
+## drifting_gratings_2026_0104
+  spikes.npy  (3934, 13074)  int16
+## spont_2024_0105
+  spikes.npy  (2401, 20636)  int16
+## sparse_noise_2025_0106
+  spikes.npy  (10003, 4913)  int16
+## spont_2026_0107
+  spikes.npy  (8062, 14669)  int16
+## drifting_gratings_2024_0108
+  spikes.npy  (5341, 18822)  int16
+## sparse_noise_2025_0109
+  spikes.npy  (9119, 12115)  int16
+## natural_scenes_2026_0110
+  spikes.npy  (9967, 10638)  int16
+## sparse_noise_2024_0111
+  spikes.npy  (3046, 17652)  int16
+## spont_2025_0112
+  spikes.npy  (7228, 18487)  int16
+## natural_scenes_2026_0113
+  spikes.npy  (1988, 11885)  int16
+## sparse_noise_2024_0114
+  spikes.npy  (1998, 10969)  int16
+## natural_scenes_2025_0115
+  spikes.npy  (2804, 9060)  int16
+## natural_scenes_2026_0116
+  spikes.npy  (3142, 12293)  int16
+## drifting_gratings_2024_0117
+  spikes.npy  (8463, 11195)  int16
+## spont_2025_0118
+  spikes.npy  (7325, 19966)  int16
+## drifting_gratings_2026_0119
+  spikes.npy  (11741, 11330)  int16
+## drifting_gratings_2024_0120
+  spikes.npy  (7870, 20895)  int16
+## sparse_noise_2025_0121
+  spikes.npy  (6356, 17804)  int16
+## drifting_gratings_2026_0122
+  spikes.npy  (6642, 14437)  int16
+## spont_2024_0123
+  spikes.npy  (6795, 4638)  int16
+## natural_scenes_2025_0124
+  spikes.npy  (9877, 19029)  int16
+## sparse_noise_2026_0125
+  spikes.npy  (1096, 16594)  int16
+## natural_scenes_2024_0126
+  spikes.npy  (9277, 13681)  int16
+## spont_2025_0127
+  spikes.npy  (2648, 11489)  int16
+## spont_2026_0128
+  spikes.npy  (2177, 12702)  int16
+## natural_scenes_2024_0129
+  spikes.npy  (1448, 9949)  int16
+## natural_scenes_2025_0130
+  spikes.npy  (2922, 17836)  int16
+## natural_scenes_2026_0131
+  spikes.npy  (7451, 8894)  int16
+## sparse_noise_2024_0132
+  spikes.npy  (6158, 6931)  int16
+## natural_scenes_2025_0133
+  spikes.npy  (1742, 10007)  int16
+## sparse_noise_2026_0134
+  spikes.npy  (1986, 12812)  int16
+## spont_2024_0135
+  spikes.npy  (11194, 6902)  int16
+## natural_scenes_2025_0136
+  spikes.npy  (2172, 11287)  int16
+## spont_2026_0137
+  spikes.npy  (5132, 7987)  int16
+## sparse_noise_2024_0138
+  spikes.npy  (989, 15113)  int16
+## sparse_noise_2025_0139
+  spikes.npy  (5188, 8234)  int16
+## spont_2026_0140
+  spikes.npy  (9432, 11813)  int16
+## spont_2024_0141
+  spikes.npy  (3445, 12581)  int16
+## spont_2025_0142
+  spikes.npy  (3767, 10611)  int16
+## natural_scenes_2026_0143
+  spikes.npy  (11100, 13994)  int16
+## drifting_gratings_2024_0144
+  spikes.npy  (5550, 18604)  int16
+## drifting_gratings_2025_0145
+  spikes.npy  (5232, 15370)  int16
+## spont_2026_0146
+  spikes.npy  (4903, 5210)  int16
+## spont_2024_0147
+  spikes.npy  (1102, 20569)  int16
+## drifting_gratings_2025_0148
+  spikes.npy  (9225, 19556)  int16
+## drifting_gratings_2026_0149
+  spikes.npy  (8124, 7482)  int16
+## sparse_noise_2024_0150
+  spikes.npy  (11556, 20220)  int16
+## sparse_noise_2025_0151
+  spikes.npy  (9101, 14085)  int16
+## drifting_gratings_2026_0152
+  spikes.npy  (4561, 15229)  int16
+## drifting_gratings_2024_0153
+  spikes.npy  (11219, 8578)  int16
+## sparse_noise_2025_0154
+  spikes.npy  (6494, 5782)  int16
+## drifting_gratings_2026_0155
+  spikes.npy  (1033, 6317)  int16
+## natural_scenes_2024_0156
+  spikes.npy  (7857, 9349)  int16
+## spont_2025_0157
+  spikes.npy  (2184, 16480)  int16
+## natural_scenes_2026_0158
+  spikes.npy  (10610, 11936)  int16
+## natural_scenes_2024_0159
+  spikes.npy  (1541, 19055)  int16
+## drifting_gratings_2025_0160
+  spikes.npy  (3381, 12815)  int16
+## sparse_noise_2026_0161
+  spikes.npy  (859, 12625)  int16
+## natural_scenes_2024_0162
+  spikes.npy  (6189, 21926)  int16
+## natural_scenes_2025_0163
+  spikes.npy  (4805, 5128)  int16
+## natural_scenes_2026_0164
+  spikes.npy  (4369, 15684)  int16
+## drifting_gratings_2024_0165
+  spikes.npy  (817, 14988)  int16
+## sparse_noise_2025_0166
+  spikes.npy  (2174, 19553)  int16
+## natural_scenes_2026_0167
+  spikes.npy  (9037, 10585)  int16
+## drifting_gratings_2024_0168
+  spikes.npy  (9069, 4162)  int16
+## spont_2025_0169
+  spikes.npy  (5128, 6941)  int16
+## drifting_gratings_2026_0170
+  spikes.npy  (7345, 5365)  int16
+## sparse_noise_2024_0171
+  spikes.npy  (1168, 13818)  int16
+## natural_scenes_2025_0172
+  spikes.npy  (11116, 11628)  int16
+## spont_2026_0173
+  spikes.npy  (10394, 21340)  int16
+## drifting_gratings_2024_0174
+  spikes.npy  (11573, 16763)  int16
+## natural_scenes_2025_0175
+  spikes.npy  (8896, 8897)  int16
+## natural_scenes_2026_0176
+  spikes.npy  (10936, 8743)  int16
+## spont_2024_0177
+  spikes.npy  (9204, 18065)  int16
+## drifting_gratings_2025_0178
+  spikes.npy  (9381, 20527)  int16
+## spont_2026_0179
+  spikes.npy  (10369, 11534)  int16
+## spont_2024_0180
+  spikes.npy  (1310, 5371)  int16
+## drifting_gratings_2025_0181
+  spikes.npy  (11238, 15819)  int16
+## spont_2026_0182
+  spikes.npy  (6970, 18791)  int16
+## spont_2024_0183
+  spikes.npy  (11085, 4617)  int16
+## drifting_gratings_2025_0184
+  spikes.npy  (8816, 12643)  int16
+## spont_2026_0185
+  spikes.npy  (8286, 6297)  int16
+## spont_2024_0186
+  spikes.npy  (11601, 21235)  int16
+## spont_2025_0187
+  spikes.npy  (8563, 12263)  int16
+## spont_2026_0188
+  spikes.npy  (5150, 11693)  int16
+## drifting_gratings_2024_0189
+  spikes.npy  (4580, 19084)  int16
+## sparse_noise_2025_0190
+  spikes.npy  (7067, 6514)  int16
+## sparse_noise_2026_0191
+  spikes.npy  (5507, 5531)  int16
+## drifting_gratings_2024_0192
+  spikes.npy  (2069, 8830)  int16
+## natural_scenes_2025_0193
+  spikes.npy  (4960, 13975)  int16
+## drifting_gratings_2026_0194
+  spikes.npy  (1004, 19807)  int16
+## spont_2024_0195
+  spikes.npy  (8759, 12807)  int16
+## spont_2025_0196
+  spikes.npy  (4366, 20043)  int16
+## natural_scenes_2026_0197
+  spikes.npy  (9262, 13356)  int16
+## sparse_noise_2024_0198
+  spikes.npy  (8433, 19281)  int16
+## spont_2025_0199
+  spikes.npy  (9796, 10529)  int16
+## natural_scenes_2026_0200
+  spikes.npy  (2206, 19497)  int16
+## spont_2024_0201
+  spikes.npy  (5544, 19039)  int16
+## spont_2025_0202
+  spikes.npy  (9100, 18727)  int16
+## natural_scenes_2026_0203
+  spikes.npy  (7138, 10875)  int16
+## drifting_gratings_2024_0204
+  spikes.npy  (2022, 6959)  int16
+## drifting_gratings_2025_0205
+  spikes.npy  (9386, 12578)  int16
+## natural_scenes_2026_0206
+  spikes.npy  (2972, 20670)  int16
+## natural_scenes_2024_0207
+  spikes.npy  (2646, 15966)  int16
+## drifting_gratings_2025_0208
+  spikes.npy  (8957, 19929)  int16
+## sparse_noise_2026_0209
+  spikes.npy  (1206, 9212)  int16
+## spont_2024_0210
+  spikes.npy  (8855, 18770)  int16
+## sparse_noise_2025_0211
+  spikes.npy  (5747, 8610)  int16
+## sparse_noise_2026_0212
+  spikes.npy  (6435, 16324)  int16
+## natural_scenes_2024_0213
+  spikes.npy  (2780, 14856)  int16
+## spont_2025_0214
+  spikes.npy  (6117, 15084)  int16
+## sparse_noise_2026_0215
+  spikes.npy  (2766, 10414)  int16
+## spont_2024_0216
+  spikes.npy  (5548, 12297)  int16
+## natural_scenes_2025_0217
+  spikes.npy  (1864, 16874)  int16
+## sparse_noise_2026_0218
+  spikes.npy  (10453, 6503)  int16
+## natural_scenes_2024_0219
+  spikes.npy  (7813, 13016)  int16
+## spont_2025_0220
+  spikes.npy  (5397, 7332)  int16
+## spont_2026_0221
+  spikes.npy  (11645, 13359)  int16
+## drifting_gratings_2024_0222
+  spikes.npy  (4884, 12707)  int16
+## sparse_noise_2025_0223
+  spikes.npy  (9171, 14341)  int16
+## drifting_gratings_2026_0224
+  spikes.npy  (6916, 18016)  int16
+## spont_2024_0225
+  spikes.npy  (11136, 17108)  int16
+## drifting_gratings_2025_0226
+  spikes.npy  (2120, 5621)  int16
+## sparse_noise_2026_0227
+  spikes.npy  (8186, 8540)  int16
+## natural_scenes_2024_0228
+  spikes.npy  (8755, 5604)  int16
+## drifting_gratings_2025_0229
+  spikes.npy  (3597, 19472)  int16
+## sparse_noise_2026_0230
+  spikes.npy  (6430, 13232)  int16
+## natural_scenes_2024_0231
+  spikes.npy  (4990, 12525)  int16
+## sparse_noise_2025_0232
+  spikes.npy  (11547, 11820)  int16
+## natural_scenes_2026_0233
+  spikes.npy  (8716, 16922)  int16
+## spont_2024_0234
+  spikes.npy  (3541, 9297)  int16
+## spont_2025_0235
+  spikes.npy  (4205, 20403)  int16
+## sparse_noise_2026_0236
+  spikes.npy  (9817, 11209)  int16
+## sparse_noise_2024_0237
+  spikes.npy  (6253, 18744)  int16
+## sparse_noise_2025_0238
+  spikes.npy  (3087, 21949)  int16
+## drifting_gratings_2026_0239
+  spikes.npy  (4799, 6972)  int16
+## drifting_gratings_2024_0240
+  spikes.npy  (6402, 6984)  int16
+## natural_scenes_2025_0241
+  spikes.npy  (4717, 16068)  int16
+## natural_scenes_2026_0242
+  spikes.npy  (10132, 10623)  int16
+## spont_2024_0243
+  spikes.npy  (7563, 16544)  int16
+## sparse_noise_2025_0244
+  spikes.npy  (9387, 10881)  int16
+## sparse_noise_2026_0245
+  spikes.npy  (5227, 15082)  int16
+## spont_2024_0246
+  spikes.npy  (8961, 13093)  int16
+## natural_scenes_2025_0247
+  spikes.npy  (2862, 20495)  int16
+## drifting_gratings_2026_0248
+  spikes.npy  (2317, 12880)  int16
+## drifting_gratings_2024_0249
+  spikes.npy  (7100, 17099)  int16
+## sparse_noise_2025_0250
+  spikes.npy  (7875, 14224)  int16
+## spont_2026_0251
+  spikes.npy  (2884, 5056)  int16
+## sparse_noise_2024_0252
+  spikes.npy  (8554, 20050)  int16
+## spont_2025_0253
+  spikes.npy  (1998, 16829)  int16
+## sparse_noise_2026_0254
+  spikes.npy  (8155, 12141)  int16
+## spont_2024_0255
+  spikes.npy  (4466, 9058)  int16
+## drifting_gratings_2025_0256
+  spikes.npy  (9358, 7568)  int16
+## sparse_noise_2026_0257
+  spikes.npy  (2192, 5295)  int16
+## spont_2024_0258
+  spikes.npy  (2858, 11621)  int16
+## spont_2025_0259
+  spikes.npy  (11375, 13954)  int16
+## drifting_gratings_2026_0260
+  spikes.npy  (11064, 12250)  int16
+## sparse_noise_2024_0261
+  spikes.npy  (2637, 7258)  int16
+## spont_2025_0262
+  spikes.npy  (5720, 21184)  int16
+## drifting_gratings_2026_0263
+  spikes.npy  (7158, 12548)  int16
+## drifting_gratings_2024_0264
+  spikes.npy  (10647, 4037)  int16
+## spont_2025_0265
+  spikes.npy  (9606, 13880)  int16
+## sparse_noise_2026_0266
+  spikes.npy  (5364, 14366)  int16
+## drifting_gratings_2024_0267
+  spikes.npy  (8587, 21245)  int16
+## drifting_gratings_2025_0268
+  spikes.npy  (9762, 12095)  int16
+## spont_2026_0269
+  spikes.npy  (7547, 14072)  int16
+## spont_2024_0270
+  spikes.npy  (1156, 10360)  int16
+## sparse_noise_2025_0271
+  spikes.npy  (11850, 17763)  int16
+## spont_2026_0272
+  spikes.npy  (5014, 11465)  int16
+## sparse_noise_2024_0273
+  spikes.npy  (6865, 11431)  int16
+## sparse_noise_2025_0274
+  spikes.npy  (1358, 15077)  int16
+## sparse_noise_2026_0275
+  spikes.npy  (6736, 16987)  int16
+## drifting_gratings_2024_0276
+  spikes.npy  (910, 13571)  int16
+## spont_2025_0277
+  spikes.npy  (4162, 20242)  int16
+## drifting_gratings_2026_0278
+  spikes.npy  (5907, 10354)  int16
+## drifting_gratings_2024_0279
+  spikes.npy  (8420, 11256)  int16
+## natural_scenes_2025_0280
+  spikes.npy  (5632, 7571)  int16
+## sparse_noise_2026_0281
+  spikes.npy  (10795, 10137)  int16
+## drifting_gratings_2024_0282
+  spikes.npy  (8747, 17665)  int16
+## spont_2025_0283
+  spikes.npy  (10545, 8796)  int16
+## sparse_noise_2026_0284
+  spikes.npy  (1690, 10977)  int16
+## spont_2024_0285
+  spikes.npy  (10566, 8650)  int16
+## sparse_noise_2025_0286
+  spikes.npy  (1649, 5970)  int16
+## drifting_gratings_2026_0287
+  spikes.npy  (7244, 18733)  int16
+## natural_scenes_2024_0288
+  spikes.npy  (2654, 6600)  int16
+## drifting_gratings_2025_0289
+  spikes.npy  (6194, 10248)  int16
+## drifting_gratings_2026_0290
+  spikes.npy  (11490, 21196)  int16
+## sparse_noise_2024_0291
+  spikes.npy  (1322, 14217)  int16
+## sparse_noise_2025_0292
+  spikes.npy  (6925, 14869)  int16
+## sparse_noise_2026_0293
+  spikes.npy  (3573, 7570)  int16
+## spont_2024_0294
+  spikes.npy  (2081, 13168)  int16
+## spont_2025_0295
+  spikes.npy  (6558, 17768)  int16
+## spont_2026_0296
+  spikes.npy  (9993, 10796)  int16
+## sparse_noise_2024_0297
+  spikes.npy  (6643, 14115)  int16
+## sparse_noise_2025_0298
+  spikes.npy  (2237, 5614)  int16
+## sparse_noise_2026_0299
+  spikes.npy  (4006, 16213)  int16
+## sparse_noise_2024_0300
+  spikes.npy  (3962, 14594)  int16
+## natural_scenes_2025_0301
+  spikes.npy  (8574, 4992)  int16
+## sparse_noise_2026_0302
+  spikes.npy  (4863, 17263)  int16
+## spont_2024_0303
+  spikes.npy  (6953, 5142)  int16
+## sparse_noise_2025_0304
+  spikes.npy  (1825, 6031)  int16
+## natural_scenes_2026_0305
+  spikes.npy  (3993, 6059)  int16
+## natural_scenes_2024_0306
+  spikes.npy  (6746, 12923)  int16
+## natural_scenes_2025_0307
+  spikes.npy  (10908, 5428)  int16
+## natural_scenes_2026_0308
+  spikes.npy  (5985, 13031)  int16
+## natural_scenes_2024_0309
+  spikes.npy  (861, 6140)  int16
+## spont_2025_0310
+  spikes.npy  (4631, 7514)  int16
+## sparse_noise_2026_0311
+  spikes.npy  (8430, 16665)  int16
+## natural_scenes_2024_0312
+  spikes.npy  (7844, 20170)  int16
+## drifting_gratings_2025_0313
+  spikes.npy  (8935, 9994)  int16
+## spont_2026_0314
+  spikes.npy  (5769, 8958)  int16
+## drifting_gratings_2024_0315
+  spikes.npy  (6170, 14470)  int16
+## sparse_noise_2025_0316
+  spikes.npy  (6728, 6589)  int16
+## drifting_gratings_2026_0317
+  spikes.npy  (7217, 9240)  int16
+## drifting_gratings_2024_0318
+  spikes.npy  (7480, 6121)  int16
+## spont_2025_0319
+  spikes.npy  (8692, 21845)  int16
+## natural_scenes_2026_0320
+  spikes.npy  (3432, 17977)  int16
+## spont_2024_0321
+  spikes.npy  (1982, 12679)  int16
+## spont_2025_0322
+  spikes.npy  (4213, 7159)  int16
+## sparse_noise_2026_0323
+  spikes.npy  (8967, 18646)  int16
+## drifting_gratings_2024_0324
+  spikes.npy  (4637, 8355)  int16
+## sparse_noise_2025_0325
+  spikes.npy  (8351, 11698)  int16
+## spont_2026_0326
+  spikes.npy  (5615, 13626)  int16
+## natural_scenes_2024_0327
+  spikes.npy  (10087, 12770)  int16
+## natural_scenes_2025_0328
+  spikes.npy  (4962, 12530)  int16
+## drifting_gratings_2026_0329
+  spikes.npy  (7999, 12107)  int16
+## drifting_gratings_2024_0330
+  spikes.npy  (4819, 11716)  int16
+## drifting_gratings_2025_0331
+  spikes.npy  (5409, 10168)  int16
+## natural_scenes_2026_0332
+  spikes.npy  (1861, 16978)  int16
+## natural_scenes_2024_0333
+  spikes.npy  (4829, 20624)  int16
+## drifting_gratings_2025_0334
+  spikes.npy  (11443, 7294)  int16
+## sparse_noise_2026_0335
+  spikes.npy  (1406, 7353)  int16
+## spont_2024_0336
+  spikes.npy  (8578, 11573)  int16
+## sparse_noise_2025_0337
+  spikes.npy  (6925, 5322)  int16
+## natural_scenes_2026_0338
+  spikes.npy  (4615, 7906)  int16
+## spont_2024_0339
+  spikes.npy  (3905, 10362)  int16
+## spont_2025_0340
+  spikes.npy  (6898, 20799)  int16
+## drifting_gratings_2026_0341
+  spikes.npy  (8158, 12517)  int16
+## spont_2024_0342
+  spikes.npy  (2533, 15458)  int16
+## drifting_gratings_2025_0343
+  spikes.npy  (1413, 16081)  int16
+## natural_scenes_2026_0344
+  spikes.npy  (3116, 5447)  int16
+## drifting_gratings_2024_0345
+  spikes.npy  (4976, 5252)  int16
+## drifting_gratings_2025_0346
+  spikes.npy  (986, 14723)  int16
+## sparse_noise_2026_0347
+  spikes.npy  (11913, 16183)  int16
+## drifting_gratings_2024_0348
+  spikes.npy  (10974, 14230)  int16
+## spont_2025_0349
+  spikes.npy  (4132, 5031)  int16
+## sparse_noise_2026_0350
+  spikes.npy  (9779, 19843)  int16
+## spont_2024_0351
+  spikes.npy  (7487, 7322)  int16
+## sparse_noise_2025_0352
+  spikes.npy  (11679, 9064)  int16
+## spont_2026_0353
+  spikes.npy  (11499, 9363)  int16
+## sparse_noise_2024_0354
+  spikes.npy  (5242, 17427)  int16
+## natural_scenes_2025_0355
+  spikes.npy  (11741, 14079)  int16
+## sparse_noise_2026_0356
+  spikes.npy  (1641, 14235)  int16
+## natural_scenes_2024_0357
+  spikes.npy  (7584, 17646)  int16
+## spont_2025_0358
+  spikes.npy  (6760, 10461)  int16
+## sparse_noise_2026_0359
+  spikes.npy  (7435, 10673)  int16
+## spont_2024_0360
+  spikes.npy  (7913, 9130)  int16
+## sparse_noise_2025_0361
+  spikes.npy  (2660, 6965)  int16
+## sparse_noise_2026_0362
+  spikes.npy  (10266, 15951)  int16
+## sparse_noise_2024_0363
+  spikes.npy  (3463, 8259)  int16
+## spont_2025_0364
+  spikes.npy  (1646, 8669)  int16
+## sparse_noise_2026_0365
+  spikes.npy  (2258, 16151)  int16
+## drifting_gratings_2024_0366
+  spikes.npy  (3190, 15401)  int16
+## natural_scenes_2025_0367
+  spikes.npy  (3451, 21077)  int16
+## drifting_gratings_2026_0368
+  spikes.npy  (1899, 7564)  int16
+## sparse_noise_2024_0369
+  spikes.npy  (8836, 10466)  int16
+## natural_scenes_2025_0370
+  spikes.npy  (2875, 5425)  int16
+## sparse_noise_2026_0371
+  spikes.npy  (5953, 5748)  int16
+## sparse_noise_2024_0372
+  spikes.npy  (2213, 9251)  int16
+## drifting_gratings_2025_0373
+  spikes.npy  (10975, 17254)  int16
+## drifting_gratings_2026_0374
+  spikes.npy  (8548, 9995)  int16
+## drifting_gratings_2024_0375
+  spikes.npy  (1483, 17098)  int16
+## drifting_gratings_2025_0376
+  spikes.npy  (7084, 15770)  int16
+## spont_2026_0377
+  spikes.npy  (3248, 12095)  int16
+## drifting_gratings_2024_0378
+  spikes.npy  (1473, 5249)  int16
+## natural_scenes_2025_0379
+  spikes.npy  (2728, 16774)  int16
+## sparse_noise_2026_0380
+  spikes.npy  (9812, 14034)  int16
+## sparse_noise_2024_0381
+  spikes.npy  (5849, 12167)  int16
+## sparse_noise_2025_0382
+  spikes.npy  (7176, 16040)  int16
+## sparse_noise_2026_0383
+  spikes.npy  (9050, 18363)  int16
+## drifting_gratings_2024_0384
+  spikes.npy  (1182, 4114)  int16
+## sparse_noise_2025_0385
+  spikes.npy  (8423, 11708)  int16
+## sparse_noise_2026_0386
+  spikes.npy  (10934, 19017)  int16
+## drifting_gratings_2024_0387
+  spikes.npy  (8553, 17118)  int16
+## spont_2025_0388
+  spikes.npy  (1899, 8209)  int16
+## natural_scenes_2026_0389
+  spikes.npy  (7854, 15971)  int16
+## spont_2024_0390
+  spikes.npy  (8041, 20526)  int16
+## spont_2025_0391
+  spikes.npy  (1466, 8268)  int16
+## spont_2026_0392
+  spikes.npy  (5940, 20760)  int16
+## spont_2024_0393
+  spikes.npy  (1689, 20512)  int16
+## sparse_noise_2025_0394
+  spikes.npy  (11494, 8462)  int16
+## spont_2026_0395
+  spikes.npy  (1887, 7590)  int16
+## drifting_gratings_2024_0396
+  spikes.npy  (2956, 20117)  int16
+## natural_scenes_2025_0397
+  spikes.npy  (3505, 11245)  int16
+## spont_2026_0398
+  spikes.npy  (6549, 12264)  int16
+## drifting_gratings_2024_0399
+  spikes.npy  (6105, 13010)  int16
+## sparse_noise_2025_0400
+  spikes.npy  (3152, 12328)  int16
+## sparse_noise_2026_0401
+  spikes.npy  (4213, 12613)  int16
+## drifting_gratings_2024_0402
+  spikes.npy  (6027, 16198)  int16
+## spont_2025_0403
+  spikes.npy  (4059, 9966)  int16
+## sparse_noise_2026_0404
+  spikes.npy  (3441, 13115)  int16
+## natural_scenes_2024_0405
+  spikes.npy  (6974, 9529)  int16
+## natural_scenes_2025_0406
+  spikes.npy  (2685, 21390)  int16
+## spont_2026_0407
+  spikes.npy  (11225, 15789)  int16
+## sparse_noise_2024_0408
+  spikes.npy  (9896, 21086)  int16
+## spont_2025_0409
+  spikes.npy  (4929, 21553)  int16
+## sparse_noise_2026_0410
+  spikes.npy  (6886, 12675)  int16
+## sparse_noise_2024_0411
+  spikes.npy  (6844, 8790)  int16
+## natural_scenes_2025_0412
+  spikes.npy  (6220, 6666)  int16
+## sparse_noise_2026_0413
+  spikes.npy  (4569, 9791)  int16
+## spont_2024_0414
+  spikes.npy  (5655, 20911)  int16
+## natural_scenes_2025_0415
+  spikes.npy  (5880, 14244)  int16
+## spont_2026_0416
+  spikes.npy  (1353, 11262)  int16
+## drifting_gratings_2024_0417
+  spikes.npy  (5567, 18163)  int16
+## sparse_noise_2025_0418
+  spikes.npy  (9199, 15930)  int16
+## spont_2026_0419
+  spikes.npy  (2963, 20003)  int16
+## drifting_gratings_2024_0420
+  spikes.npy  (10835, 5493)  int16
+## spont_2025_0421
+  spikes.npy  (1691, 4085)  int16
+## natural_scenes_2026_0422
+  spikes.npy  (5776, 7485)  int16
+## natural_scenes_2024_0423
+  spikes.npy  (9550, 11348)  int16
+## sparse_noise_2025_0424
+  spikes.npy  (10361, 13868)  int16
+## drifting_gratings_2026_0425
+  spikes.npy  (4145, 16000)  int16
+## sparse_noise_2024_0426
+  spikes.npy  (3398, 8415)  int16
+## spont_2025_0427
+  spikes.npy  (4790, 8892)  int16
+## sparse_noise_2026_0428
+  spikes.npy  (2369, 6086)  int16
+## drifting_gratings_2024_0429
+  spikes.npy  (11703, 12839)  int16
+## sparse_noise_2025_0430
+  spikes.npy  (5129, 4376)  int16
+## spont_2026_0431
+  spikes.npy  (11366, 15479)  int16
+## sparse_noise_2024_0432
+  spikes.npy  (10661, 20960)  int16
+## sparse_noise_2025_0433
+  spikes.npy  (4871, 9409)  int16
+## spont_2026_0434
+  spikes.npy  (1520, 6016)  int16
+## spont_2024_0435
+  spikes.npy  (7451, 10083)  int16
+## drifting_gratings_2025_0436
+  spikes.npy  (3408, 5912)  int16
+## spont_2026_0437
+  spikes.npy  (1002, 10463)  int16
+## drifting_gratings_2024_0438
+  spikes.npy  (7569, 10537)  int16
+## sparse_noise_2025_0439
+  spikes.npy  (10846, 9722)  int16
+## natural_scenes_2026_0440
+  spikes.npy  (1844, 13839)  int16
+## spont_2024_0441
+  spikes.npy  (8630, 21642)  int16
+## spont_2025_0442
+  spikes.npy  (6946, 18308)  int16
+## sparse_noise_2026_0443
+  spikes.npy  (2118, 18827)  int16
+## drifting_gratings_2024_0444
+  spikes.npy  (4501, 7449)  int16
+## natural_scenes_2025_0445
+  spikes.npy  (4605, 5271)  int16
+## spont_2026_0446
+  spikes.npy  (6297, 12627)  int16
+## spont_2024_0447
+  spikes.npy  (5157, 18288)  int16
+## natural_scenes_2025_0448
+  spikes.npy  (5643, 11110)  int16
+## spont_2026_0449
+  spikes.npy  (9113, 4498)  int16
+## drifting_gratings_2024_0450
+  spikes.npy  (5065, 11736)  int16
+## drifting_gratings_2025_0451
+  spikes.npy  (3408, 14710)  int16
+## drifting_gratings_2026_0452
+  spikes.npy  (7168, 14766)  int16
+## drifting_gratings_2024_0453
+  spikes.npy  (7016, 21575)  int16
+## sparse_noise_2025_0454
+  spikes.npy  (8535, 21387)  int16
+## spont_2026_0455
+  spikes.npy  (1234, 18326)  int16
+## drifting_gratings_2024_0456
+  spikes.npy  (10144, 14084)  int16
+## drifting_gratings_2025_0457
+  spikes.npy  (7215, 6549)  int16
+## drifting_gratings_2026_0458
+  spikes.npy  (3169, 5078)  int16
+## spont_2024_0459
+  spikes.npy  (2633, 7495)  int16
+## drifting_gratings_2025_0460
+  spikes.npy  (6450, 8647)  int16
+## spont_2026_0461
+  spikes.npy  (1305, 5364)  int16
+## drifting_gratings_2024_0462
+  spikes.npy  (11343, 5397)  int16
+## spont_2025_0463
+  spikes.npy  (1564, 6154)  int16
+## natural_scenes_2026_0464
+  spikes.npy  (4065, 21494)  int16
+## spont_2024_0465
+  spikes.npy  (7088, 7509)  int16
+## drifting_gratings_2025_0466
+  spikes.npy  (4170, 10657)  int16
+## spont_2026_0467
+  spikes.npy  (1354, 5128)  int16
+## spont_2024_0468
+  spikes.npy  (11147, 13416)  int16
+## sparse_noise_2025_0469
+  spikes.npy  (2436, 8346)  int16
+## spont_2026_0470
+  spikes.npy  (11389, 10717)  int16
+## natural_scenes_2024_0471
+  spikes.npy  (6028, 15026)  int16
+## sparse_noise_2025_0472
+  spikes.npy  (5078, 4685)  int16
+## natural_scenes_2026_0473
+  spikes.npy  (5005, 13260)  int16
+## spont_2024_0474
+  spikes.npy  (6829, 14512)  int16
+## sparse_noise_2025_0475
+  spikes.npy  (5512, 5015)  int16
+## sparse_noise_2026_0476
+  spikes.npy  (1311, 18301)  int16
+## spont_2024_0477
+  spikes.npy  (6481, 19366)  int16
+## spont_2025_0478
+  spikes.npy  (9612, 11096)  int16
+## spont_2026_0479
+  spikes.npy  (10213, 13408)  int16
+## drifting_gratings_2024_0480
+  spikes.npy  (7944, 4042)  int16
+## drifting_gratings_2025_0481
+  spikes.npy  (5524, 5768)  int16
+## spont_2026_0482
+  spikes.npy  (6498, 20083)  int16
+## spont_2024_0483
+  spikes.npy  (8852, 10046)  int16
+## sparse_noise_2025_0484
+  spikes.npy  (10508, 15376)  int16
+## natural_scenes_2026_0485
+  spikes.npy  (10270, 9206)  int16
+## natural_scenes_2024_0486
+  spikes.npy  (4317, 11586)  int16
+## sparse_noise_2025_0487
+  spikes.npy  (3516, 7601)  int16
+## spont_2026_0488
+  spikes.npy  (8832, 7426)  int16
+## natural_scenes_2024_0489
+  spikes.npy  (6626, 7117)  int16
+## sparse_noise_2025_0490
+  spikes.npy  (7265, 6823)  int16
+## sparse_noise_2026_0491
+  spikes.npy  (11381, 4824)  int16
+## natural_scenes_2024_0492
+  spikes.npy  (4177, 13933)  int16
+## natural_scenes_2025_0493
+  spikes.npy  (7813, 21856)  int16
+## drifting_gratings_2026_0494
+  spikes.npy  (7014, 11653)  int16
+## sparse_noise_2024_0495
+  spikes.npy  (2878, 21417)  int16
+## spont_2025_0496
+  spikes.npy  (6509, 14704)  int16
+## drifting_gratings_2026_0497
+  spikes.npy  (8177, 14595)  int16
+## drifting_gratings_2024_0498
+  spikes.npy  (8388, 18378)  int16
+## natural_scenes_2025_0499
+  spikes.npy  (10289, 11570)  int16
+## drifting_gratings_2026_0500
+  spikes.npy  (6273, 19139)  int16
+## drifting_gratings_2024_0501
+  spikes.npy  (9118, 10277)  int16
+## natural_scenes_2025_0502
+  spikes.npy  (5739, 9065)  int16
+## drifting_gratings_2026_0503
+  spikes.npy  (4856, 14700)  int16
+## natural_scenes_2024_0504
+  spikes.npy  (3436, 11740)  int16
+## natural_scenes_2025_0505
+  spikes.npy  (3901, 12476)  int16
+## spont_2026_0506
+  spikes.npy  (3496, 7330)  int16
+## drifting_gratings_2024_0507
+  spikes.npy  (7095, 8946)  int16
+## drifting_gratings_2025_0508
+  spikes.npy  (5749, 13745)  int16
+## sparse_noise_2026_0509
+  spikes.npy  (5286, 10428)  int16
+## spont_2024_0510
+  spikes.npy  (11252, 7501)  int16
+## natural_scenes_2025_0511
+  spikes.npy  (4182, 16725)  int16
+## sparse_noise_2026_0512
+  spikes.npy  (1355, 4413)  int16
+## sparse_noise_2024_0513
+  spikes.npy  (7952, 11289)  int16
+## natural_scenes_2025_0514
+  spikes.npy  (8390, 4724)  int16
+## drifting_gratings_2026_0515
+  spikes.npy  (5014, 17261)  int16
+## spont_2024_0516
+  spikes.npy  (4769, 18091)  int16
+## sparse_noise_2025_0517
+  spikes.npy  (4544, 11490)  int16
+## drifting_gratings_2026_0518
+  spikes.npy  (11310, 8070)  int16
+## sparse_noise_2024_0519
+  spikes.npy  (7886, 14256)  int16
+## natural_scenes_2025_0520
+  spikes.npy  (11093, 7206)  int16
+## sparse_noise_2026_0521
+  spikes.npy  (4771, 17111)  int16
+## drifting_gratings_2024_0522
+  spikes.npy  (4896, 17879)  int16
+## sparse_noise_2025_0523
+  spikes.npy  (8257, 4644)  int16
+## sparse_noise_2026_0524
+  spikes.npy  (9291, 9998)  int16
+## natural_scenes_2024_0525
+  spikes.npy  (974, 16737)  int16
+## sparse_noise_2025_0526
+  spikes.npy  (2542, 5249)  int16
+## natural_scenes_2026_0527
+  spikes.npy  (9702, 11139)  int16
+## drifting_gratings_2024_0528
+  spikes.npy  (4073, 21013)  int16
+## natural_scenes_2025_0529
+  spikes.npy  (2456, 18967)  int16
+## drifting_gratings_2026_0530
+  spikes.npy  (8594, 20783)  int16
+## spont_2024_0531
+  spikes.npy  (11273, 16121)  int16
+## natural_scenes_2025_0532
+  spikes.npy  (7523, 18972)  int16
+## drifting_gratings_2026_0533
+  spikes.npy  (3811, 16861)  int16
+## spont_2024_0534
+  spikes.npy  (10859, 15648)  int16
+## spont_2025_0535
+  spikes.npy  (4936, 12990)  int16
+## sparse_noise_2026_0536
+  spikes.npy  (7348, 6015)  int16
+## spont_2024_0537
+  spikes.npy  (2031, 17716)  int16
+## sparse_noise_2025_0538
+  spikes.npy  (11098, 15538)  int16
+## natural_scenes_2026_0539
+  spikes.npy  (2590, 11354)  int16
+## natural_scenes_2024_0540
+  spikes.npy  (7361, 21271)  int16
+## drifting_gratings_2025_0541
+  spikes.npy  (7221, 19142)  int16
+## drifting_gratings_2026_0542
+  spikes.npy  (3495, 8236)  int16
+## spont_2024_0543
+  spikes.npy  (11192, 10329)  int16
+## sparse_noise_2025_0544
+  spikes.npy  (11321, 11405)  int16
+## drifting_gratings_2026_0545
+  spikes.npy  (6585, 17542)  int16
+## sparse_noise_2024_0546
+  spikes.npy  (5622, 21965)  int16
+## drifting_gratings_2025_0547
+  spikes.npy  (8490, 15624)  int16
+## drifting_gratings_2026_0548
+  spikes.npy  (5181, 16325)  int16
+## natural_scenes_2024_0549
+  spikes.npy  (7781, 10091)  int16
+## sparse_noise_2025_0550
+  spikes.npy  (844, 13214)  int16
+## natural_scenes_2026_0551
+  spikes.npy  (4813, 13890)  int16
+## natural_scenes_2024_0552
+  spikes.npy  (8656, 19889)  int16
+## sparse_noise_2025_0553
+  spikes.npy  (11013, 6799)  int16
+## natural_scenes_2026_0554
+  spikes.npy  (3302, 13934)  int16
+## sparse_noise_2024_0555
+  spikes.npy  (1734, 6794)  int16
+## natural_scenes_2025_0556
+  spikes.npy  (3100, 21388)  int16
+## natural_scenes_2026_0557
+  spikes.npy  (11173, 4491)  int16
+## spont_2024_0558
+  spikes.npy  (4236, 6359)  int16
+## natural_scenes_2025_0559
+  spikes.npy  (4896, 7326)  int16
+## drifting_gratings_2026_0560
+  spikes.npy  (4627, 10083)  int16
+## sparse_noise_2024_0561
+  spikes.npy  (6476, 9002)  int16
+## drifting_gratings_2025_0562
+  spikes.npy  (7394, 21515)  int16
+## drifting_gratings_2026_0563
+  spikes.npy  (10786, 6962)  int16
+## natural_scenes_2024_0564
+  spikes.npy  (4033, 20202)  int16
+## drifting_gratings_2025_0565
+  spikes.npy  (9496, 6576)  int16
+## sparse_noise_2026_0566
+  spikes.npy  (11797, 7833)  int16
+## spont_2024_0567
+  spikes.npy  (5133, 17731)  int16
+## drifting_gratings_2025_0568
+  spikes.npy  (3082, 19507)  int16
+## sparse_noise_2026_0569
+  spikes.npy  (9929, 5915)  int16
+## sparse_noise_2024_0570
+  spikes.npy  (8452, 8732)  int16
+## sparse_noise_2025_0571
+  spikes.npy  (4839, 20324)  int16
+## drifting_gratings_2026_0572
+  spikes.npy  (9639, 4216)  int16
+## drifting_gratings_2024_0573
+  spikes.npy  (6054, 19334)  int16
+## sparse_noise_2025_0574
+  spikes.npy  (11700, 13726)  int16
+## sparse_noise_2026_0575
+  spikes.npy  (6943, 17953)  int16
+## sparse_noise_2024_0576
+  spikes.npy  (11874, 6470)  int16
+## drifting_gratings_2025_0577
+  spikes.npy  (11237, 15808)  int16
+## spont_2026_0578
+  spikes.npy  (1136, 5503)  int16
+## natural_scenes_2024_0579
+  spikes.npy  (2339, 20732)  int16
+## sparse_noise_2025_0580
+  spikes.npy  (8740, 8734)  int16
+## spont_2026_0581
+  spikes.npy  (4295, 17618)  int16
+## drifting_gratings_2024_0582
+  spikes.npy  (6347, 7095)  int16
+## natural_scenes_2025_0583
+  spikes.npy  (6392, 19549)  int16
+## drifting_gratings_2026_0584
+  spikes.npy  (5455, 18260)  int16
+## natural_scenes_2024_0585
+  spikes.npy  (7720, 12243)  int16
+## spont_2025_0586
+  spikes.npy  (5537, 13597)  int16
+## natural_scenes_2026_0587
+  spikes.npy  (8889, 17229)  int16
+## natural_scenes_2024_0588
+  spikes.npy  (9053, 12902)  int16
+## natural_scenes_2025_0589
+  spikes.npy  (4134, 20128)  int16
+## spont_2026_0590
+  spikes.npy  (6221, 10301)  int16
+## natural_scenes_2024_0591
+  spikes.npy  (5702, 8180)  int16
+## spont_2025_0592
+  spikes.npy  (1456, 17070)  int16
+## sparse_noise_2026_0593
+  spikes.npy  (9735, 5628)  int16
+## sparse_noise_2024_0594
+  spikes.npy  (5721, 7555)  int16
+## spont_2025_0595
+  spikes.npy  (1560, 10223)  int16
+## sparse_noise_2026_0596
+  spikes.npy  (10772, 5970)  int16
+## sparse_noise_2024_0597
+  spikes.npy  (10903, 8818)  int16
+## spont_2025_0598
+  spikes.npy  (4281, 5293)  int16
+## sparse_noise_2026_0599
+  spikes.npy  (11044, 9698)  int16
+## spont_2024_0600
+  spikes.npy  (11672, 9940)  int16
+## spont_2025_0601
+  spikes.npy  (7707, 7296)  int16
+## spont_2026_0602
+  spikes.npy  (6843, 8544)  int16
+## natural_scenes_2024_0603
+  spikes.npy  (10009, 12454)  int16
+## natural_scenes_2025_0604
+  spikes.npy  (3827, 17821)  int16
+## spont_2026_0605
+  spikes.npy  (6017, 4668)  int16
+## sparse_noise_2024_0606
+  spikes.npy  (10078, 5789)  int16
+## sparse_noise_2025_0607
+  spikes.npy  (10098, 21109)  int16
+## spont_2026_0608
+  spikes.npy  (2747, 17797)  int16
+## sparse_noise_2024_0609
+  spikes.npy  (8114, 6202)  int16
+## spont_2025_0610
+  spikes.npy  (11940, 16685)  int16
+## drifting_gratings_2026_0611
+  spikes.npy  (8589, 17514)  int16
+## spont_2024_0612
+  spikes.npy  (2158, 19472)  int16
+## drifting_gratings_2025_0613
+  spikes.npy  (3286, 4508)  int16
+## sparse_noise_2026_0614
+  spikes.npy  (878, 4305)  int16
+## spont_2024_0615
+  spikes.npy  (2244, 11151)  int16
+## spont_2025_0616
+  spikes.npy  (2913, 19477)  int16
+## spont_2026_0617
+  spikes.npy  (5312, 11938)  int16
+## sparse_noise_2024_0618
+  spikes.npy  (3870, 5642)  int16
+## natural_scenes_2025_0619
+  spikes.npy  (3172, 6762)  int16
+## natural_scenes_2026_0620
+  spikes.npy  (11099, 20321)  int16
+## sparse_noise_2024_0621
+  spikes.npy  (11769, 12324)  int16
+## spont_2025_0622
+  spikes.npy  (1323, 4373)  int16
+## spont_2026_0623
+  spikes.npy  (1041, 6610)  int16
+## sparse_noise_2024_0624
+  spikes.npy  (5896, 14239)  int16
+## drifting_gratings_2025_0625
+  spikes.npy  (8768, 5958)  int16
+## natural_scenes_2026_0626
+  spikes.npy  (6822, 18376)  int16
+## sparse_noise_2024_0627
+  spikes.npy  (11889, 9454)  int16
+## drifting_gratings_2025_0628
+  spikes.npy  (2712, 15903)  int16
+## drifting_gratings_2026_0629
+  spikes.npy  (11117, 17695)  int16
+## sparse_noise_2024_0630
+  spikes.npy  (7119, 18835)  int16
+## natural_scenes_2025_0631
+  spikes.npy  (10086, 14940)  int16
+## natural_scenes_2026_0632
+  spikes.npy  (5385, 5986)  int16
+## natural_scenes_2024_0633
+  spikes.npy  (10725, 4507)  int16
+## drifting_gratings_2025_0634
+  spikes.npy  (10649, 14112)  int16
+## sparse_noise_2026_0635
+  spikes.npy  (4832, 16342)  int16
+## sparse_noise_2024_0636
+  spikes.npy  (6963, 11679)  int16
+## sparse_noise_2025_0637
+  spikes.npy  (5441, 4055)  int16
+## natural_scenes_2026_0638
+  spikes.npy  (5109, 12782)  int16
+## sparse_noise_2024_0639
+  spikes.npy  (3376, 5385)  int16
+## natural_scenes_2025_0640
+  spikes.npy  (3104, 8816)  int16
+## natural_scenes_2026_0641
+  spikes.npy  (9775, 20383)  int16
+## natural_scenes_2024_0642
+  spikes.npy  (9558, 6787)  int16
+## sparse_noise_2025_0643
+  spikes.npy  (7054, 10567)  int16
+## drifting_gratings_2026_0644
+  spikes.npy  (5870, 5886)  int16
+## sparse_noise_2024_0645
+  spikes.npy  (8423, 10769)  int16
+## natural_scenes_2025_0646
+  spikes.npy  (10407, 4307)  int16
+## sparse_noise_2026_0647
+  spikes.npy  (8332, 21713)  int16
+## spont_2024_0648
+  spikes.npy  (9584, 15636)  int16
+## spont_2025_0649
+  spikes.npy  (4615, 17047)  int16
+## natural_scenes_2026_0650
+  spikes.npy  (9350, 14518)  int16
+## sparse_noise_2024_0651
+  spikes.npy  (9093, 10614)  int16
+## drifting_gratings_2025_0652
+  spikes.npy  (4284, 10301)  int16
+## spont_2026_0653
+  spikes.npy  (3760, 13496)  int16
+## natural_scenes_2024_0654
+  spikes.npy  (10267, 15760)  int16
+## sparse_noise_2025_0655
+  spikes.npy  (9274, 8882)  int16
+## drifting_gratings_2026_0656
+  spikes.npy  (1530, 20163)  int16
+## natural_scenes_2024_0657
+  spikes.npy  (2538, 16178)  int16
+## sparse_noise_2025_0658
+  spikes.npy  (2139, 9116)  int16
+## natural_scenes_2026_0659
+  spikes.npy  (10584, 4994)  int16
+## natural_scenes_2024_0660
+  spikes.npy  (5396, 21021)  int16
+## spont_2025_0661
+  spikes.npy  (2341, 5100)  int16
+## drifting_gratings_2026_0662
+  spikes.npy  (10064, 19935)  int16
+## drifting_gratings_2024_0663
+  spikes.npy  (5086, 13169)  int16
+## sparse_noise_2025_0664
+  spikes.npy  (2391, 18642)  int16
+## drifting_gratings_2026_0665
+  spikes.npy  (4961, 5240)  int16
+## natural_scenes_2024_0666
+  spikes.npy  (4093, 9922)  int16
+## sparse_noise_2025_0667
+  spikes.npy  (2170, 4901)  int16
+## spont_2026_0668
+  spikes.npy  (1370, 16112)  int16
+## sparse_noise_2024_0669
+  spikes.npy  (8776, 6103)  int16
+## sparse_noise_2025_0670
+  spikes.npy  (2764, 6947)  int16
+## natural_scenes_2026_0671
+  spikes.npy  (6021, 11641)  int16
+## spont_2024_0672
+  spikes.npy  (11772, 20597)  int16
+## sparse_noise_2025_0673
+  spikes.npy  (3792, 18691)  int16
+## drifting_gratings_2026_0674
+  spikes.npy  (6877, 11704)  int16
+## drifting_gratings_2024_0675
+  spikes.npy  (3620, 5265)  int16
+## natural_scenes_2025_0676
+  spikes.npy  (6567, 5942)  int16
+## spont_2026_0677
+  spikes.npy  (1570, 12450)  int16
+## sparse_noise_2024_0678
+  spikes.npy  (1713, 7311)  int16
+## drifting_gratings_2025_0679
+  spikes.npy  (6004, 4189)  int16
+## drifting_gratings_2026_0680
+  spikes.npy  (11890, 13790)  int16
+## sparse_noise_2024_0681
+  spikes.npy  (11490, 7454)  int16
+## sparse_noise_2025_0682
+  spikes.npy  (6107, 16179)  int16
+## natural_scenes_2026_0683
+  spikes.npy  (7190, 8067)  int16
+## natural_scenes_2024_0684
+  spikes.npy  (8685, 16440)  int16
+## drifting_gratings_2025_0685
+  spikes.npy  (8031, 11813)  int16
+## drifting_gratings_2026_0686
+  spikes.npy  (11902, 4413)  int16
+## sparse_noise_2024_0687
+  spikes.npy  (3996, 5180)  int16
+## drifting_gratings_2025_0688
+  spikes.npy  (4413, 6548)  int16
+## natural_scenes_2026_0689
+  spikes.npy  (3089, 18655)  int16
+## spont_2024_0690
+  spikes.npy  (7109, 4712)  int16
+## spont_2025_0691
+  spikes.npy  (8211, 15133)  int16
+## natural_scenes_2026_0692
+  spikes.npy  (4631, 19647)  int16
+## spont_2024_0693
+  spikes.npy  (11092, 15994)  int16
+## drifting_gratings_2025_0694
+  spikes.npy  (6239, 11263)  int16
+## spont_2026_0695
+  spikes.npy  (3753, 18790)  int16
+## drifting_gratings_2024_0696
+  spikes.npy  (7992, 8895)  int16
+## natural_scenes_2025_0697
+  spikes.npy  (7652, 17493)  int16
+## drifting_gratings_2026_0698
+  spikes.npy  (3350, 4832)  int16
+## natural_scenes_2024_0699
+  spikes.npy  (10155, 13717)  int16
+## natural_scenes_2025_0700
+  spikes.npy  (3549, 12541)  int16
+## sparse_noise_2026_0701
+  spikes.npy  (2589, 14422)  int16
+## sparse_noise_2024_0702
+  spikes.npy  (8704, 7741)  int16
+## drifting_gratings_2025_0703
+  spikes.npy  (9212, 5862)  int16
+## drifting_gratings_2026_0704
+  spikes.npy  (9974, 19645)  int16
+## natural_scenes_2024_0705
+  spikes.npy  (2752, 12447)  int16
+## drifting_gratings_2025_0706
+  spikes.npy  (6768, 18157)  int16
+## natural_scenes_2026_0707
+  spikes.npy  (4710, 11803)  int16
+## spont_2024_0708
+  spikes.npy  (7192, 13483)  int16
+## sparse_noise_2025_0709
+  spikes.npy  (3457, 5883)  int16
+## natural_scenes_2026_0710
+  spikes.npy  (3165, 4525)  int16
+## sparse_noise_2024_0711
+  spikes.npy  (9119, 15170)  int16
+## drifting_gratings_2025_0712
+  spikes.npy  (8058, 4063)  int16
+## natural_scenes_2026_0713
+  spikes.npy  (3844, 15799)  int16
+## sparse_noise_2024_0714
+  spikes.npy  (1464, 17400)  int16
+## drifting_gratings_2025_0715
+  spikes.npy  (5335, 9920)  int16
+## drifting_gratings_2026_0716
+  spikes.npy  (3751, 21093)  int16
+## drifting_gratings_2024_0717
+  spikes.npy  (3677, 10445)  int16
+## spont_2025_0718
+  spikes.npy  (2232, 20235)  int16
+## natural_scenes_2026_0719
+  spikes.npy  (3672, 10751)  int16
+## drifting_gratings_2024_0720
+  spikes.npy  (10834, 10297)  int16
+## natural_scenes_2025_0721
+  spikes.npy  (4114, 4328)  int16
+## spont_2026_0722
+  spikes.npy  (9312, 17373)  int16
+## spont_2024_0723
+  spikes.npy  (9294, 15391)  int16
+## natural_scenes_2025_0724
+  spikes.npy  (5416, 20155)  int16
+## spont_2026_0725
+  spikes.npy  (1053, 17419)  int16
+## sparse_noise_2024_0726
+  spikes.npy  (2983, 12724)  int16
+## drifting_gratings_2025_0727
+  spikes.npy  (3848, 16029)  int16
+## spont_2026_0728
+  spikes.npy  (3478, 16162)  int16
+## spont_2024_0729
+  spikes.npy  (6635, 21033)  int16
+## sparse_noise_2025_0730
+  spikes.npy  (9248, 6337)  int16
+## spont_2026_0731
+  spikes.npy  (6644, 12019)  int16
+## natural_scenes_2024_0732
+  spikes.npy  (7048, 6005)  int16
+## natural_scenes_2025_0733
+  spikes.npy  (2564, 20213)  int16
+## sparse_noise_2026_0734
+  spikes.npy  (9210, 4840)  int16
+## drifting_gratings_2024_0735
+  spikes.npy  (1138, 11980)  int16
+## spont_2025_0736
+  spikes.npy  (4465, 9976)  int16
+## drifting_gratings_2026_0737
+  spikes.npy  (2482, 14220)  int16
+## natural_scenes_2024_0738
+  spikes.npy  (9899, 4985)  int16
+## spont_2025_0739
+  spikes.npy  (2380, 10392)  int16
+## natural_scenes_2026_0740
+  spikes.npy  (1089, 19202)  int16
+## drifting_gratings_2024_0741
+  spikes.npy  (8077, 7370)  int16
+## natural_scenes_2025_0742
+  spikes.npy  (2338, 9864)  int16
+## spont_2026_0743
+  spikes.npy  (5273, 8032)  int16
+## sparse_noise_2024_0744
+  spikes.npy  (8887, 20408)  int16
+## natural_scenes_2025_0745
+  spikes.npy  (2602, 7998)  int16
+## spont_2026_0746
+  spikes.npy  (7446, 8487)  int16
+## drifting_gratings_2024_0747
+  spikes.npy  (4519, 8824)  int16
+## sparse_noise_2025_0748
+  spikes.npy  (7298, 9384)  int16
+## spont_2026_0749
+  spikes.npy  (11203, 16738)  int16
+## sparse_noise_2024_0750
+  spikes.npy  (10581, 21223)  int16
+## spont_2025_0751
+  spikes.npy  (7282, 5702)  int16
+## natural_scenes_2026_0752
+  spikes.npy  (6346, 17130)  int16
+## drifting_gratings_2024_0753
+  spikes.npy  (6289, 18273)  int16
+## natural_scenes_2025_0754
+  spikes.npy  (7363, 5754)  int16
+## natural_scenes_2026_0755
+  spikes.npy  (9276, 8804)  int16
+## natural_scenes_2024_0756
+  spikes.npy  (4884, 17832)  int16
+## spont_2025_0757
+  spikes.npy  (6770, 7572)  int16
+## drifting_gratings_2026_0758
+  spikes.npy  (1934, 14628)  int16
+## sparse_noise_2024_0759
+  spikes.npy  (4089, 20540)  int16
+## spont_2025_0760
+  spikes.npy  (4494, 8568)  int16
+## sparse_noise_2026_0761
+  spikes.npy  (7305, 18867)  int16
+## spont_2024_0762
+  spikes.npy  (1459, 5126)  int16
+## natural_scenes_2025_0763
+  spikes.npy  (11915, 12959)  int16
+## spont_2026_0764
+  spikes.npy  (10978, 7293)  int16
+## natural_scenes_2024_0765
+  spikes.npy  (2793, 21049)  int16
+## spont_2025_0766
+  spikes.npy  (7905, 11754)  int16
+## spont_2026_0767
+  spikes.npy  (5510, 7704)  int16
+## natural_scenes_2024_0768
+  spikes.npy  (6494, 9471)  int16
+## spont_2025_0769
+  spikes.npy  (1788, 20835)  int16
+## natural_scenes_2026_0770
+  spikes.npy  (2184, 19283)  int16
+## drifting_gratings_2024_0771
+  spikes.npy  (8008, 8060)  int16
+## drifting_gratings_2025_0772
+  spikes.npy  (5610, 17321)  int16
+## natural_scenes_2026_0773
+  spikes.npy  (5291, 11975)  int16
+## spont_2024_0774
+  spikes.npy  (9750, 13409)  int16
+## sparse_noise_2025_0775
+  spikes.npy  (10793, 11261)  int16
+## sparse_noise_2026_0776
+  spikes.npy  (4096, 21975)  int16
+## natural_scenes_2024_0777
+  spikes.npy  (8351, 21957)  int16
+## natural_scenes_2025_0778
+  spikes.npy  (10840, 19658)  int16
+## sparse_noise_2026_0779
+  spikes.npy  (5887, 5014)  int16
+## drifting_gratings_2024_0780
+  spikes.npy  (6266, 11260)  int16
+## drifting_gratings_2025_0781
+  spikes.npy  (9195, 21888)  int16
+## sparse_noise_2026_0782
+  spikes.npy  (10395, 16991)  int16
+## spont_2024_0783
+  spikes.npy  (6577, 9318)  int16
+## drifting_gratings_2025_0784
+  spikes.npy  (6107, 14665)  int16
+## sparse_noise_2026_0785
+  spikes.npy  (5222, 13332)  int16
+## drifting_gratings_2024_0786
+  spikes.npy  (5641, 5864)  int16
+## spont_2025_0787
+  spikes.npy  (3397, 6188)  int16
+## natural_scenes_2026_0788
+  spikes.npy  (8008, 6032)  int16
+## sparse_noise_2024_0789
+  spikes.npy  (8007, 15603)  int16
+## spont_2025_0790
+  spikes.npy  (9334, 11378)  int16
+## drifting_gratings_2026_0791
+  spikes.npy  (7628, 15043)  int16
+## natural_scenes_2024_0792
+  spikes.npy  (3099, 10635)  int16
+## natural_scenes_2025_0793
+  spikes.npy  (9283, 7114)  int16
+## sparse_noise_2026_0794
+  spikes.npy  (5202, 8170)  int16
+## sparse_noise_2024_0795
+  spikes.npy  (2493, 4141)  int16
+## sparse_noise_2025_0796
+  spikes.npy  (9810, 7848)  int16
+## sparse_noise_2026_0797
+  spikes.npy  (7312, 8903)  int16
+## sparse_noise_2024_0798
+  spikes.npy  (5376, 7638)  int16
+## sparse_noise_2025_0799
+  spikes.npy  (8210, 19004)  int16
+## natural_scenes_2026_0800
+  spikes.npy  (6577, 13598)  int16
+## natural_scenes_2024_0801
+  spikes.npy  (7200, 21239)  int16
+## sparse_noise_2025_0802
+  spikes.npy  (11420, 14551)  int16
+## spont_2026_0803
+  spikes.npy  (8984, 16473)  int16
+## sparse_noise_2024_0804
+  spikes.npy  (5715, 10036)  int16
+## natural_scenes_2025_0805
+  spikes.npy  (3175, 18275)  int16
+## sparse_noise_2026_0806
+  spikes.npy  (10328, 11600)  int16
+## spont_2024_0807
+  spikes.npy  (6208, 14612)  int16
+## drifting_gratings_2025_0808
+  spikes.npy  (6138, 10694)  int16
+## sparse_noise_2026_0809
+  spikes.npy  (975, 4838)  int16
+## spont_2024_0810
+  spikes.npy  (5003, 20296)  int16
+## natural_scenes_2025_0811
+  spikes.npy  (9589, 14237)  int16
+## sparse_noise_2026_0812
+  spikes.npy  (9277, 20949)  int16
+## sparse_noise_2024_0813
+  spikes.npy  (7181, 19212)  int16
+## natural_scenes_2025_0814
+  spikes.npy  (1467, 15505)  int16
+## sparse_noise_2026_0815
+  spikes.npy  (970, 6237)  int16
+## drifting_gratings_2024_0816
+  spikes.npy  (2421, 17419)  int16
+## natural_scenes_2025_0817
+  spikes.npy  (9006, 17136)  int16
+## drifting_gratings_2026_0818
+  spikes.npy  (3883, 17802)  int16
+## sparse_noise_2024_0819
+  spikes.npy  (7380, 18423)  int16
+## natural_scenes_2025_0820
+  spikes.npy  (9485, 7022)  int16
+## drifting_gratings_2026_0821
+  spikes.npy  (6742, 14422)  int16
+## natural_scenes_2024_0822
+  spikes.npy  (2030, 14178)  int16
+## drifting_gratings_2025_0823
+  spikes.npy  (2610, 13663)  int16
+## natural_scenes_2026_0824
+  spikes.npy  (9137, 17791)  int16
+## drifting_gratings_2024_0825
+  spikes.npy  (9386, 13500)  int16
+## drifting_gratings_2025_0826
+  spikes.npy  (9072, 10163)  int16
+## sparse_noise_2026_0827
+  spikes.npy  (3788, 5971)  int16
+## spont_2024_0828
+  spikes.npy  (6586, 5386)  int16
+## sparse_noise_2025_0829
+  spikes.npy  (975, 4091)  int16
+## natural_scenes_2026_0830
+  spikes.npy  (9859, 4128)  int16
+## natural_scenes_2024_0831
+  spikes.npy  (7313, 7227)  int16
+## spont_2025_0832
+  spikes.npy  (11746, 4967)  int16
+## drifting_gratings_2026_0833
+  spikes.npy  (3670, 20313)  int16
+## natural_scenes_2024_0834
+  spikes.npy  (11397, 21415)  int16
+## drifting_gratings_2025_0835
+  spikes.npy  (10212, 10505)  int16
+## sparse_noise_2026_0836
+  spikes.npy  (10658, 7981)  int16
+## drifting_gratings_2024_0837
+  spikes.npy  (3368, 20987)  int16
+## spont_2025_0838
+  spikes.npy  (1275, 7280)  int16
+## spont_2026_0839
+  spikes.npy  (3594, 21121)  int16
+## sparse_noise_2024_0840
+  spikes.npy  (8459, 18110)  int16
+## spont_2025_0841
+  spikes.npy  (11451, 4409)  int16
+## natural_scenes_2026_0842
+  spikes.npy  (3158, 11807)  int16
+## natural_scenes_2024_0843
+  spikes.npy  (5312, 9551)  int16
+## spont_2025_0844
+  spikes.npy  (5168, 7258)  int16
+## spont_2026_0845
+  spikes.npy  (6516, 10280)  int16
+## sparse_noise_2024_0846
+  spikes.npy  (11023, 16637)  int16
+## spont_2025_0847
+  spikes.npy  (1695, 11210)  int16
+## sparse_noise_2026_0848
+  spikes.npy  (10346, 5439)  int16
+## sparse_noise_2024_0849
+  spikes.npy  (1694, 11808)  int16
+## drifting_gratings_2025_0850
+  spikes.npy  (4451, 5441)  int16
+## drifting_gratings_2026_0851
+  spikes.npy  (10417, 9686)  int16
+## natural_scenes_2024_0852
+  spikes.npy  (900, 18923)  int16
+## natural_scenes_2025_0853
+  spikes.npy  (7654, 12256)  int16
+## sparse_noise_2026_0854
+  spikes.npy  (1906, 11960)  int16
+## sparse_noise_2024_0855
+  spikes.npy  (11857, 11254)  int16
+## sparse_noise_2025_0856
+  spikes.npy  (5865, 17061)  int16
+## sparse_noise_2026_0857
+  spikes.npy  (1167, 11975)  int16
+## spont_2024_0858
+  spikes.npy  (3642, 9568)  int16
+## natural_scenes_2025_0859
+  spikes.npy  (7009, 10112)  int16
+## spont_2026_0860
+  spikes.npy  (5562, 16977)  int16
+## natural_scenes_2024_0861
+  spikes.npy  (2682, 14977)  int16
+## sparse_noise_2025_0862
+  spikes.npy  (6303, 17211)  int16
+## spont_2026_0863
+  spikes.npy  (2819, 17837)  int16
+## natural_scenes_2024_0864
+  spikes.npy  (9874, 12026)  int16
+## sparse_noise_2025_0865
+  spikes.npy  (3932, 19303)  int16
+## natural_scenes_2026_0866
+  spikes.npy  (6443, 11771)  int16
+## sparse_noise_2024_0867
+  spikes.npy  (1372, 13146)  int16
+## spont_2025_0868
+  spikes.npy  (6393, 9108)  int16
+## drifting_gratings_2026_0869
+  spikes.npy  (2927, 7035)  int16
+## drifting_gratings_2024_0870
+  spikes.npy  (5218, 21854)  int16
+## drifting_gratings_2025_0871
+  spikes.npy  (9892, 18526)  int16
+## sparse_noise_2026_0872
+  spikes.npy  (4735, 9217)  int16
+## natural_scenes_2024_0873
+  spikes.npy  (6582, 11093)  int16
+## sparse_noise_2025_0874
+  spikes.npy  (6975, 10817)  int16
+## natural_scenes_2026_0875
+  spikes.npy  (8598, 20542)  int16
+## drifting_gratings_2024_0876
+  spikes.npy  (4523, 18833)  int16
+## drifting_gratings_2025_0877
+  spikes.npy  (5072, 18429)  int16
+## natural_scenes_2026_0878
+  spikes.npy  (9559, 12069)  int16
+## sparse_noise_2024_0879
+  spikes.npy  (10764, 20718)  int16
+## drifting_gratings_2025_0880
+  spikes.npy  (2856, 8023)  int16
+## spont_2026_0881
+  spikes.npy  (9689, 12860)  int16
+## sparse_noise_2024_0882
+  spikes.npy  (1270, 8753)  int16
+## natural_scenes_2025_0883
+  spikes.npy  (1045, 16777)  int16
+## spont_2026_0884
+  spikes.npy  (3700, 11587)  int16
+## natural_scenes_2024_0885
+  spikes.npy  (3885, 7570)  int16
+## spont_2025_0886
+  spikes.npy  (10007, 15845)  int16
+## natural_scenes_2026_0887
+  spikes.npy  (3959, 6159)  int16
+## natural_scenes_2024_0888
+  spikes.npy  (2240, 11419)  int16
+## natural_scenes_2025_0889
+  spikes.npy  (2866, 17073)  int16
+## natural_scenes_2026_0890
+  spikes.npy  (6631, 17217)  int16
+## sparse_noise_2024_0891
+  spikes.npy  (11089, 8330)  int16
+## natural_scenes_2025_0892
+  spikes.npy  (3690, 4969)  int16
+## natural_scenes_2026_0893
+  spikes.npy  (11934, 15515)  int16
+## sparse_noise_2024_0894
+  spikes.npy  (1213, 19157)  int16
+## drifting_gratings_2025_0895
+  spikes.npy  (7362, 15538)  int16
+## spont_2026_0896
+  spikes.npy  (3776, 13551)  int16
+## spont_2024_0897
+  spikes.npy  (5238, 11182)  int16
+## spont_2025_0898
+  spikes.npy  (7429, 5310)  int16
+## drifting_gratings_2026_0899
+  spikes.npy  (7856, 10490)  int16
+## natural_scenes_2024_0900
+  spikes.npy  (3359, 16476)  int16
+## spont_2025_0901
+  spikes.npy  (9849, 14188)  int16
+## drifting_gratings_2026_0902
+  spikes.npy  (10049, 11459)  int16
+## sparse_noise_2024_0903
+  spikes.npy  (9332, 12346)  int16
+## sparse_noise_2025_0904
+  spikes.npy  (11779, 15437)  int16
+## spont_2026_0905
+  spikes.npy  (2632, 13382)  int16
+## spont_2024_0906
+  spikes.npy  (10386, 5551)  int16
+## drifting_gratings_2025_0907
+  spikes.npy  (11958, 7643)  int16
+## spont_2026_0908
+  spikes.npy  (6019, 10885)  int16
+## natural_scenes_2024_0909
+  spikes.npy  (2211, 17671)  int16
+## sparse_noise_2025_0910
+  spikes.npy  (10881, 11235)  int16
+## natural_scenes_2026_0911
+  spikes.npy  (9439, 6946)  int16
+## natural_scenes_2024_0912
+  spikes.npy  (7746, 18501)  int16
+## natural_scenes_2025_0913
+  spikes.npy  (9042, 18836)  int16
+## spont_2026_0914
+  spikes.npy  (11885, 10749)  int16
+## sparse_noise_2024_0915
+  spikes.npy  (11828, 20773)  int16
+## drifting_gratings_2025_0916
+  spikes.npy  (8820, 10202)  int16
+## spont_2026_0917
+  spikes.npy  (9960, 12558)  int16
+## drifting_gratings_2024_0918
+  spikes.npy  (9752, 9363)  int16
+## drifting_gratings_2025_0919
+  spikes.npy  (9711, 12528)  int16
+## drifting_gratings_2026_0920
+  spikes.npy  (1772, 9506)  int16
+## natural_scenes_2024_0921
+  spikes.npy  (6489, 17488)  int16
+## spont_2025_0922
+  spikes.npy  (4099, 14176)  int16
+## drifting_gratings_2026_0923
+  spikes.npy  (3037, 19939)  int16
+## sparse_noise_2024_0924
+  spikes.npy  (4697, 11920)  int16
+## spont_2025_0925
+  spikes.npy  (9244, 18582)  int16
+## drifting_gratings_2026_0926
+  spikes.npy  (11300, 15516)  int16
+## natural_scenes_2024_0927
+  spikes.npy  (2985, 8649)  int16
+## drifting_gratings_2025_0928
+  spikes.npy  (6265, 7865)  int16
+## sparse_noise_2026_0929
+  spikes.npy  (3572, 9072)  int16
+## sparse_noise_2024_0930
+  spikes.npy  (7453, 10760)  int16
+## spont_2025_0931
+  spikes.npy  (5540, 4405)  int16
+## natural_scenes_2026_0932
+  spikes.npy  (8772, 10764)  int16
+## spont_2024_0933
+  spikes.npy  (1788, 13203)  int16
+## natural_scenes_2025_0934
+  spikes.npy  (4029, 7623)  int16
+## natural_scenes_2026_0935
+  spikes.npy  (8140, 7702)  int16
+## drifting_gratings_2024_0936
+  spikes.npy  (6116, 18584)  int16
+## sparse_noise_2025_0937
+  spikes.npy  (10125, 15893)  int16
+## natural_scenes_2026_0938
+  spikes.npy  (3554, 6353)  int16
+## spont_2024_0939
+  spikes.npy  (977, 19352)  int16
+## sparse_noise_2025_0940
+  spikes.npy  (2175, 14869)  int16
+## natural_scenes_2026_0941
+  spikes.npy  (2582, 20019)  int16
+## sparse_noise_2024_0942
+  spikes.npy  (8801, 10219)  int16
+## natural_scenes_2025_0943
+  spikes.npy  (936, 15773)  int16
+## spont_2026_0944
+  spikes.npy  (11359, 13370)  int16
+## natural_scenes_2024_0945
+  spikes.npy  (11499, 12060)  int16
+## spont_2025_0946
+  spikes.npy  (3071, 4906)  int16
+## spont_2026_0947
+  spikes.npy  (7276, 8755)  int16
+## natural_scenes_2024_0948
+  spikes.npy  (6827, 10086)  int16
+## drifting_gratings_2025_0949
+  spikes.npy  (2474, 14169)  int16
+## natural_scenes_2026_0950
+  spikes.npy  (7015, 10047)  int16
+## natural_scenes_2024_0951
+  spikes.npy  (6045, 11544)  int16
+## natural_scenes_2025_0952
+  spikes.npy  (3033, 16100)  int16
+## natural_scenes_2026_0953
+  spikes.npy  (4721, 5891)  int16
+## spont_2024_0954
+  spikes.npy  (2556, 17212)  int16
+## spont_2025_0955
+  spikes.npy  (4346, 20199)  int16
+## sparse_noise_2026_0956
+  spikes.npy  (8984, 9160)  int16
+## natural_scenes_2024_0957
+  spikes.npy  (10673, 6629)  int16
+## drifting_gratings_2025_0958
+  spikes.npy  (4527, 9362)  int16
+## drifting_gratings_2026_0959
+  spikes.npy  (8061, 17152)  int16
+## spont_2024_0960
+  spikes.npy  (1454, 18401)  int16
+## sparse_noise_2025_0961
+  spikes.npy  (3926, 11152)  int16
+## natural_scenes_2026_0962
+  spikes.npy  (845, 5049)  int16
+## sparse_noise_2024_0963
+  spikes.npy  (3145, 13281)  int16
+## spont_2025_0964
+  spikes.npy  (11640, 5812)  int16
+## sparse_noise_2026_0965
+  spikes.npy  (6348, 6055)  int16
+## sparse_noise_2024_0966
+  spikes.npy  (944, 9776)  int16
+## drifting_gratings_2025_0967
+  spikes.npy  (7006, 13690)  int16
+## spont_2026_0968
+  spikes.npy  (8060, 15406)  int16
+## drifting_gratings_2024_0969
+  spikes.npy  (8481, 6786)  int16
+## natural_scenes_2025_0970
+  spikes.npy  (9266, 19088)  int16
+## sparse_noise_2026_0971
+  spikes.npy  (9560, 9058)  int16
+## sparse_noise_2024_0972
+  spikes.npy  (10779, 6668)  int16
+## spont_2025_0973
+  spikes.npy  (11882, 14863)  int16
+## natural_scenes_2026_0974
+  spikes.npy  (10057, 17799)  int16
+## natural_scenes_2024_0975
+  spikes.npy  (8676, 8484)  int16
+## natural_scenes_2025_0976
+  spikes.npy  (6426, 21380)  int16
+## spont_2026_0977
+  spikes.npy  (3894, 11290)  int16
+## sparse_noise_2024_0978
+  spikes.npy  (2196, 8814)  int16
+## natural_scenes_2025_0979
+  spikes.npy  (9891, 17643)  int16
+## natural_scenes_2026_0980
+  spikes.npy  (9483, 11872)  int16
+## sparse_noise_2024_0981
+  spikes.npy  (7293, 12555)  int16
+## spont_2025_0982
+  spikes.npy  (4523, 9914)  int16
+## drifting_gratings_2026_0983
+  spikes.npy  (9780, 7678)  int16
+## drifting_gratings_2024_0984
+  spikes.npy  (4953, 7111)  int16
+## drifting_gratings_2025_0985
+  spikes.npy  (9496, 12242)  int16
+## sparse_noise_2026_0986
+  spikes.npy  (4519, 19012)  int16
+## drifting_gratings_2024_0987
+  spikes.npy  (9667, 7703)  int16
+## spont_2025_0988
+  spikes.npy  (7485, 6407)  int16
+## sparse_noise_2026_0989
+  spikes.npy  (3000, 20486)  int16
+## spont_2024_0990
+  spikes.npy  (11066, 20880)  int16
+## spont_2025_0991
+  spikes.npy  (8336, 16843)  int16
+## drifting_gratings_2026_0992
+  spikes.npy  (3939, 19568)  int16
+## spont_2024_0993
+  spikes.npy  (3041, 16234)  int16
+## spont_2025_0994
+  spikes.npy  (7424, 11762)  int16
+## spont_2026_0995
+  spikes.npy  (6900, 5367)  int16
+## spont_2024_0996
+  spikes.npy  (10537, 10983)  int16
+## sparse_noise_2025_0997
+  spikes.npy  (5714, 7949)  int16
+## drifting_gratings_2026_0998
+  spikes.npy  (7779, 6873)  int16
+## drifting_gratings_2024_0999
+  spikes.npy  (10023, 7758)  int16
+## natural_scenes_2025_1000
+  spikes.npy  (3552, 16025)  int16
+## natural_scenes_2026_1001
+  spikes.npy  (11949, 4381)  int16
+## natural_scenes_2024_1002
+  spikes.npy  (2810, 11841)  int16
+## natural_scenes_2025_1003
+  spikes.npy  (9207, 21193)  int16
+## natural_scenes_2026_1004
+  spikes.npy  (8811, 5425)  int16
+## natural_scenes_2024_1005
+  spikes.npy  (2432, 15656)  int16
+## natural_scenes_2025_1006
+  spikes.npy  (10680, 7701)  int16
+## spont_2026_1007
+  spikes.npy  (11862, 11944)  int16
+## natural_scenes_2024_1008
+  spikes.npy  (6605, 10329)  int16
+## sparse_noise_2025_1009
+  spikes.npy  (1148, 18413)  int16
+## spont_2026_1010
+  spikes.npy  (1143, 19992)  int16
+## spont_2024_1011
+  spikes.npy  (2008, 12467)  int16
+## drifting_gratings_2025_1012
+  spikes.npy  (3261, 13503)  int16
+## sparse_noise_2026_1013
+  spikes.npy  (3163, 12200)  int16
+## natural_scenes_2024_1014
+  spikes.npy  (8075, 4452)  int16
+## spont_2025_1015
+  spikes.npy  (6409, 8945)  int16
+## sparse_noise_2026_1016
+  spikes.npy  (9021, 19858)  int16
+## spont_2024_1017
+  spikes.npy  (1380, 6444)  int16
+## drifting_gratings_2025_1018
+  spikes.npy  (10964, 16863)  int16
+## sparse_noise_2026_1019
+  spikes.npy  (3393, 18699)  int16
+## sparse_noise_2024_1020
+  spikes.npy  (4555, 20940)  int16
+## spont_2025_1021
+  spikes.npy  (6713, 14789)  int16
+## drifting_gratings_2026_1022
+  spikes.npy  (5899, 8290)  int16
+## spont_2024_1023
+  spikes.npy  (4263, 9561)  int16
+## natural_scenes_2025_1024
+  spikes.npy  (8463, 14858)  int16
+## sparse_noise_2026_1025
+  spikes.npy  (7155, 15589)  int16
+## natural_scenes_2024_1026
+  spikes.npy  (898, 14993)  int16
+## sparse_noise_2025_1027
+  spikes.npy  (6268, 11425)  int16
+## spont_2026_1028
+  spikes.npy  (4875, 19053)  int16
+## spont_2024_1029
+  spikes.npy  (11136, 8778)  int16
+## drifting_gratings_2025_1030
+  spikes.npy  (5267, 16597)  int16
+## natural_scenes_2026_1031
+  spikes.npy  (1840, 20384)  int16
+## natural_scenes_2024_1032
+  spikes.npy  (6646, 21306)  int16
+## drifting_gratings_2025_1033
+  spikes.npy  (1358, 7121)  int16
+## drifting_gratings_2026_1034
+  spikes.npy  (7783, 7243)  int16
+## natural_scenes_2024_1035
+  spikes.npy  (5413, 11800)  int16
+## drifting_gratings_2025_1036
+  spikes.npy  (11962, 6360)  int16
+## natural_scenes_2026_1037
+  spikes.npy  (6395, 15883)  int16
+## drifting_gratings_2024_1038
+  spikes.npy  (6541, 17302)  int16
+## natural_scenes_2025_1039
+  spikes.npy  (1790, 15049)  int16
+## natural_scenes_2026_1040
+  spikes.npy  (8688, 20506)  int16
+## natural_scenes_2024_1041
+  spikes.npy  (4788, 11694)  int16
+## natural_scenes_2025_1042
+  spikes.npy  (3270, 8443)  int16
+## drifting_gratings_2026_1043
+  spikes.npy  (918, 18848)  int16
+## sparse_noise_2024_1044
+  spikes.npy  (8099, 16978)  int16
+## natural_scenes_2025_1045
+  spikes.npy  (3567, 6173)  int16
+## drifting_gratings_2026_1046
+  spikes.npy  (5739, 14108)  int16
+## natural_scenes_2024_1047
+  spikes.npy  (10169, 15156)  int16
+## spont_2025_1048
+  spikes.npy  (3916, 6622)  int16
+## drifting_gratings_2026_1049
+  spikes.npy  (5784, 15583)  int16
+## sparse_noise_2024_1050
+  spikes.npy  (6648, 18033)  int16
+## spont_2025_1051
+  spikes.npy  (8738, 14461)  int16
+## drifting_gratings_2026_1052
+  spikes.npy  (5319, 12439)  int16
+## spont_2024_1053
+  spikes.npy  (3496, 12783)  int16
+## drifting_gratings_2025_1054
+  spikes.npy  (1128, 11153)  int16
+## spont_2026_1055
+  spikes.npy  (7346, 18677)  int16
+## drifting_gratings_2024_1056
+  spikes.npy  (10677, 13261)  int16
+## spont_2025_1057
+  spikes.npy  (4022, 11921)  int16
+## spont_2026_1058
+  spikes.npy  (2913, 5592)  int16
+## spont_2024_1059
+  spikes.npy  (2003, 15179)  int16
+## drifting_gratings_2025_1060
+  spikes.npy  (882, 10166)  int16
+## natural_scenes_2026_1061
+  spikes.npy  (9597, 4491)  int16
+## natural_scenes_2024_1062
+  spikes.npy  (1251, 10954)  int16
+## natural_scenes_2025_1063
+  spikes.npy  (6153, 4887)  int16
+## sparse_noise_2026_1064
+  spikes.npy  (7440, 15068)  int16
+## drifting_gratings_2024_1065
+  spikes.npy  (1741, 17574)  int16
+## spont_2025_1066
+  spikes.npy  (2228, 14961)  int16
+## sparse_noise_2026_1067
+  spikes.npy  (10595, 17092)  int16
+## natural_scenes_2024_1068
+  spikes.npy  (8391, 4445)  int16
+## spont_2025_1069
+  spikes.npy  (5991, 14270)  int16
+## spont_2026_1070
+  spikes.npy  (7601, 14786)  int16
+## drifting_gratings_2024_1071
+  spikes.npy  (2331, 4609)  int16
+## drifting_gratings_2025_1072
+  spikes.npy  (4248, 8674)  int16
+## spont_2026_1073
+  spikes.npy  (6662, 15853)  int16
+## sparse_noise_2024_1074
+  spikes.npy  (6437, 21650)  int16
+## drifting_gratings_2025_1075
+  spikes.npy  (11570, 14840)  int16
+## drifting_gratings_2026_1076
+  spikes.npy  (10936, 12448)  int16
+## sparse_noise_2024_1077
+  spikes.npy  (1318, 14133)  int16
+## sparse_noise_2025_1078
+  spikes.npy  (9963, 13118)  int16
+## natural_scenes_2026_1079
+  spikes.npy  (9374, 21355)  int16
+## natural_scenes_2024_1080
+  spikes.npy  (2960, 12287)  int16
+## spont_2025_1081
+  spikes.npy  (9944, 19589)  int16
+## spont_2026_1082
+  spikes.npy  (11537, 15878)  int16
+## drifting_gratings_2024_1083
+  spikes.npy  (11103, 11476)  int16
+## sparse_noise_2025_1084
+  spikes.npy  (2273, 4915)  int16
+## drifting_gratings_2026_1085
+  spikes.npy  (2802, 5971)  int16
+## drifting_gratings_2024_1086
+  spikes.npy  (9897, 9957)  int16
+## natural_scenes_2025_1087
+  spikes.npy  (10729, 15980)  int16
+## drifting_gratings_2026_1088
+  spikes.npy  (3707, 9311)  int16
+## spont_2024_1089
+  spikes.npy  (6547, 11949)  int16
+## sparse_noise_2025_1090
+  spikes.npy  (8974, 10984)  int16
+## natural_scenes_2026_1091
+  spikes.npy  (7173, 19076)  int16
+## drifting_gratings_2024_1092
+  spikes.npy  (6105, 4867)  int16
+## spont_2025_1093
+  spikes.npy  (11613, 4505)  int16
+## spont_2026_1094
+  spikes.npy  (11375, 17167)  int16
+## natural_scenes_2024_1095
+  spikes.npy  (1782, 11474)  int16
+## sparse_noise_2025_1096
+  spikes.npy  (7516, 16306)  int16
+## drifting_gratings_2026_1097
+  spikes.npy  (1303, 12255)  int16
+## spont_2024_1098
+  spikes.npy  (5097, 18214)  int16
+## drifting_gratings_2025_1099
+  spikes.npy  (4590, 15609)  int16
+## drifting_gratings_2026_1100
+  spikes.npy  (6141, 17946)  int16
+## natural_scenes_2024_1101
+  spikes.npy  (5689, 20338)  int16
+## drifting_gratings_2025_1102
+  spikes.npy  (10131, 9135)  int16
+## sparse_noise_2026_1103
+  spikes.npy  (5179, 8473)  int16
+## natural_scenes_2024_1104
+  spikes.npy  (5429, 6897)  int16
+## natural_scenes_2025_1105
+  spikes.npy  (864, 19910)  int16
+## drifting_gratings_2026_1106
+  spikes.npy  (3447, 14478)  int16
+## sparse_noise_2024_1107
+  spikes.npy  (4274, 5708)  int16
+## drifting_gratings_2025_1108
+  spikes.npy  (6704, 5513)  int16
+## sparse_noise_2026_1109
+  spikes.npy  (3786, 18247)  int16
+## drifting_gratings_2024_1110
+  spikes.npy  (5675, 4800)  int16
+## spont_2025_1111
+  spikes.npy  (3289, 4308)  int16
+## drifting_gratings_2026_1112
+  spikes.npy  (5759, 8941)  int16
+## natural_scenes_2024_1113
+  spikes.npy  (2398, 9529)  int16
+## sparse_noise_2025_1114
+  spikes.npy  (11986, 17014)  int16
+## spont_2026_1115
+  spikes.npy  (7586, 15126)  int16
+## sparse_noise_2024_1116
+  spikes.npy  (6299, 5078)  int16
+## drifting_gratings_2025_1117
+  spikes.npy  (4099, 4503)  int16
+## spont_2026_1118
+  spikes.npy  (3009, 20540)  int16
+## drifting_gratings_2024_1119
+  spikes.npy  (10218, 18106)  int16
+## spont_2025_1120
+  spikes.npy  (1126, 5583)  int16
+## natural_scenes_2026_1121
+  spikes.npy  (1857, 7615)  int16
+## spont_2024_1122
+  spikes.npy  (8784, 8450)  int16
+## sparse_noise_2025_1123
+  spikes.npy  (842, 9864)  int16
+## drifting_gratings_2026_1124
+  spikes.npy  (9654, 8847)  int16
+## spont_2024_1125
+  spikes.npy  (9482, 15585)  int16
+## sparse_noise_2025_1126
+  spikes.npy  (2066, 15450)  int16
+## drifting_gratings_2026_1127
+  spikes.npy  (4469, 6372)  int16
+## natural_scenes_2024_1128
+  spikes.npy  (3703, 4498)  int16
+## natural_scenes_2025_1129
+  spikes.npy  (5207, 6258)  int16
+## spont_2026_1130
+  spikes.npy  (4018, 20670)  int16
+## spont_2024_1131
+  spikes.npy  (7486, 15882)  int16
+## natural_scenes_2025_1132
+  spikes.npy  (973, 14672)  int16
+## spont_2026_1133
+  spikes.npy  (11500, 18868)  int16
+## natural_scenes_2024_1134
+  spikes.npy  (9791, 14838)  int16
+## sparse_noise_2025_1135
+  spikes.npy  (5200, 17083)  int16
+## sparse_noise_2026_1136
+  spikes.npy  (6014, 21694)  int16
+## sparse_noise_2024_1137
+  spikes.npy  (7074, 8955)  int16
+## sparse_noise_2025_1138
+  spikes.npy  (7114, 17433)  int16
+## drifting_gratings_2026_1139
+  spikes.npy  (11203, 4172)  int16
+## drifting_gratings_2024_1140
+  spikes.npy  (10758, 20418)  int16
+## natural_scenes_2025_1141
+  spikes.npy  (10809, 16352)  int16
+## drifting_gratings_2026_1142
+  spikes.npy  (4050, 7806)  int16
+## spont_2024_1143
+  spikes.npy  (10971, 5102)  int16
+## spont_2025_1144
+  spikes.npy  (7448, 14629)  int16
+## sparse_noise_2026_1145
+  spikes.npy  (9793, 14342)  int16
+## sparse_noise_2024_1146
+  spikes.npy  (10265, 4030)  int16
+## sparse_noise_2025_1147
+  spikes.npy  (11405, 19420)  int16
+## natural_scenes_2026_1148
+  spikes.npy  (10504, 21897)  int16
+## sparse_noise_2024_1149
+  spikes.npy  (4640, 16413)  int16
+## natural_scenes_2025_1150
+  spikes.npy  (1850, 16894)  int16
+## natural_scenes_2026_1151
+  spikes.npy  (10840, 14555)  int16
+## spont_2024_1152
+  spikes.npy  (11103, 21795)  int16
+## drifting_gratings_2025_1153
+  spikes.npy  (10835, 12681)  int16
+## natural_scenes_2026_1154
+  spikes.npy  (8554, 15395)  int16
+## sparse_noise_2024_1155
+  spikes.npy  (10150, 11249)  int16
+## drifting_gratings_2025_1156
+  spikes.npy  (1878, 21326)  int16
+## natural_scenes_2026_1157
+  spikes.npy  (9384, 10712)  int16
+## drifting_gratings_2024_1158
+  spikes.npy  (6793, 11819)  int16
+## drifting_gratings_2025_1159
+  spikes.npy  (3297, 19083)  int16
+## drifting_gratings_2026_1160
+  spikes.npy  (11294, 5417)  int16
+## natural_scenes_2024_1161
+  spikes.npy  (7046, 15854)  int16
+## sparse_noise_2025_1162
+  spikes.npy  (2815, 17435)  int16
+## drifting_gratings_2026_1163
+  spikes.npy  (4920, 16292)  int16
+## spont_2024_1164
+  spikes.npy  (6776, 15686)  int16
+## natural_scenes_2025_1165
+  spikes.npy  (8218, 6883)  int16
+## natural_scenes_2026_1166
+  spikes.npy  (7280, 13519)  int16
+## sparse_noise_2024_1167
+  spikes.npy  (2631, 18723)  int16
+## sparse_noise_2025_1168
+  spikes.npy  (3659, 20952)  int16
+## drifting_gratings_2026_1169
+  spikes.npy  (896, 8276)  int16
+## natural_scenes_2024_1170
+  spikes.npy  (8808, 21062)  int16
+## drifting_gratings_2025_1171
+  spikes.npy  (11003, 16149)  int16
+## natural_scenes_2026_1172
+  spikes.npy  (7044, 12285)  int16
+## spont_2024_1173
+  spikes.npy  (9912, 10581)  int16
+## spont_2025_1174
+  spikes.npy  (10147, 12508)  int16
+## spont_2026_1175
+  spikes.npy  (10476, 9846)  int16
+## natural_scenes_2024_1176
+  spikes.npy  (9723, 12997)  int16
+## natural_scenes_2025_1177
+  spikes.npy  (4988, 11924)  int16
+## natural_scenes_2026_1178
+  spikes.npy  (7977, 6992)  int16
+## sparse_noise_2024_1179
+  spikes.npy  (2255, 10608)  int16
+## drifting_gratings_2025_1180
+  spikes.npy  (7732, 13517)  int16
+## natural_scenes_2026_1181
+  spikes.npy  (1519, 18500)  int16
+## sparse_noise_2024_1182
+  spikes.npy  (6815, 5368)  int16
+## natural_scenes_2025_1183
+  spikes.npy  (7483, 18121)  int16
+## natural_scenes_2026_1184
+  spikes.npy  (6572, 11819)  int16
+## sparse_noise_2024_1185
+  spikes.npy  (10281, 8242)  int16
+## drifting_gratings_2025_1186
+  spikes.npy  (10306, 16201)  int16
+## spont_2026_1187
+  spikes.npy  (11705, 10656)  int16
+## natural_scenes_2024_1188
+  spikes.npy  (1959, 6619)  int16
+## sparse_noise_2025_1189
+  spikes.npy  (7016, 16886)  int16
+## sparse_noise_2026_1190
+  spikes.npy  (8936, 4838)  int16
+## spont_2024_1191
+  spikes.npy  (10512, 19156)  int16
+## sparse_noise_2025_1192
+  spikes.npy  (7945, 17595)  int16
+## sparse_noise_2026_1193
+  spikes.npy  (3687, 6133)  int16
+## sparse_noise_2024_1194
+  spikes.npy  (7314, 20097)  int16
+## drifting_gratings_2025_1195
+  spikes.npy  (9185, 4311)  int16
+## drifting_gratings_2026_1196
+  spikes.npy  (4080, 17162)  int16
+## spont_2024_1197
+  spikes.npy  (11938, 13633)  int16
+## natural_scenes_2025_1198
+  spikes.npy  (7148, 19069)  int16
+## spont_2026_1199
+  spikes.npy  (2275, 11232)  int16
+## spont_2024_1200
+  spikes.npy  (10155, 4507)  int16
+## spont_2025_1201
+  spikes.npy  (8941, 6891)  int16
+## drifting_gratings_2026_1202
+  spikes.npy  (10047, 18885)  int16
+## spont_2024_1203
+  spikes.npy  (11957, 10548)  int16
+## natural_scenes_2025_1204
+  spikes.npy  (8710, 5794)  int16
+## sparse_noise_2026_1205
+  spikes.npy  (10367, 8594)  int16
+## sparse_noise_2024_1206
+  spikes.npy  (1620, 8768)  int16
+## natural_scenes_2025_1207
+  spikes.npy  (6277, 10234)  int16
+## spont_2026_1208
+  spikes.npy  (3849, 21658)  int16
+## natural_scenes_2024_1209
+  spikes.npy  (9319, 12596)  int16
+## spont_2025_1210
+  spikes.npy  (5928, 16573)  int16
+## natural_scenes_2026_1211
+  spikes.npy  (11678, 13790)  int16
+## sparse_noise_2024_1212
+  spikes.npy  (9171, 17769)  int16
+## spont_2025_1213
+  spikes.npy  (5827, 13977)  int16
+## drifting_gratings_2026_1214
+  spikes.npy  (7029, 18290)  int16
+## natural_scenes_2024_1215
+  spikes.npy  (5796, 10619)  int16
+## drifting_gratings_2025_1216
+  spikes.npy  (1653, 10799)  int16
+## natural_scenes_2026_1217
+  spikes.npy  (8405, 20023)  int16
+## drifting_gratings_2024_1218
+  spikes.npy  (6792, 15198)  int16
+## drifting_gratings_2025_1219
+  spikes.npy  (8278, 5676)  int16
+## natural_scenes_2026_1220
+  spikes.npy  (939, 21467)  int16
+## spont_2024_1221
+  spikes.npy  (7499, 14602)  int16
+## spont_2025_1222
+  spikes.npy  (5281, 11198)  int16
+## sparse_noise_2026_1223
+  spikes.npy  (5576, 10571)  int16
+## drifting_gratings_2024_1224
+  spikes.npy  (10500, 18896)  int16
+## sparse_noise_2025_1225
+  spikes.npy  (8088, 10680)  int16
+## drifting_gratings_2026_1226
+  spikes.npy  (1745, 9902)  int16
+## sparse_noise_2024_1227
+  spikes.npy  (11273, 8078)  int16
+## spont_2025_1228
+  spikes.npy  (3044, 6356)  int16
+## sparse_noise_2026_1229
+  spikes.npy  (3751, 4465)  int16
+## drifting_gratings_2024_1230
+  spikes.npy  (8962, 11235)  int16
+## natural_scenes_2025_1231
+  spikes.npy  (4257, 21512)  int16
+## drifting_gratings_2026_1232
+  spikes.npy  (3188, 10779)  int16
+## spont_2024_1233
+  spikes.npy  (8429, 7120)  int16
+## drifting_gratings_2025_1234
+  spikes.npy  (2299, 5648)  int16
+## sparse_noise_2026_1235
+  spikes.npy  (4466, 12440)  int16
+## sparse_noise_2024_1236
+  spikes.npy  (7756, 9073)  int16
+## spont_2025_1237
+  spikes.npy  (2985, 5368)  int16
+## drifting_gratings_2026_1238
+  spikes.npy  (8112, 13621)  int16
+## drifting_gratings_2024_1239
+  spikes.npy  (10336, 14444)  int16
+## drifting_gratings_2025_1240
+  spikes.npy  (5871, 12455)  int16
+## natural_scenes_2026_1241
+  spikes.npy  (9790, 11031)  int16
+## drifting_gratings_2024_1242
+  spikes.npy  (11701, 11563)  int16
+## sparse_noise_2025_1243
+  spikes.npy  (1339, 14735)  int16
+## sparse_noise_2026_1244
+  spikes.npy  (3355, 13537)  int16
+## drifting_gratings_2024_1245
+  spikes.npy  (11528, 21882)  int16
+## spont_2025_1246
+  spikes.npy  (4046, 19219)  int16
+## drifting_gratings_2026_1247
+  spikes.npy  (3813, 18085)  int16
+## natural_scenes_2024_1248
+  spikes.npy  (11923, 17152)  int16
+## spont_2025_1249
+  spikes.npy  (1435, 15528)  int16
+## spont_2026_1250
+  spikes.npy  (11572, 10896)  int16
+## spont_2024_1251
+  spikes.npy  (5563, 20053)  int16
+## natural_scenes_2025_1252
+  spikes.npy  (1091, 20270)  int16
+## spont_2026_1253
+  spikes.npy  (4085, 19884)  int16
+## natural_scenes_2024_1254
+  spikes.npy  (5763, 21718)  int16
+## spont_2025_1255
+  spikes.npy  (4098, 8577)  int16
+## sparse_noise_2026_1256
+  spikes.npy  (5242, 11444)  int16
+## natural_scenes_2024_1257
+  spikes.npy  (1330, 7298)  int16
+## spont_2025_1258
+  spikes.npy  (6440, 10369)  int16
+## drifting_gratings_2026_1259
+  spikes.npy  (11556, 13831)  int16
+## spont_2024_1260
+  spikes.npy  (3617, 14916)  int16
+## natural_scenes_2025_1261
+  spikes.npy  (8166, 19762)  int16
+## drifting_gratings_2026_1262
+  spikes.npy  (6199, 15929)  int16
+## drifting_gratings_2024_1263
+  spikes.npy  (2596, 13772)  int16
+## spont_2025_1264
+  spikes.npy  (9961, 18908)  int16
+## spont_2026_1265
+  spikes.npy  (9836, 7701)  int16
+## drifting_gratings_2024_1266
+  spikes.npy  (10558, 16886)  int16
+## sparse_noise_2025_1267
+  spikes.npy  (1388, 5105)  int16
+## spont_2026_1268
+  spikes.npy  (9210, 7185)  int16
+## sparse_noise_2024_1269
+  spikes.npy  (11397, 8324)  int16
+## sparse_noise_2025_1270
+  spikes.npy  (10269, 15562)  int16
+## spont_2026_1271
+  spikes.npy  (6939, 9370)  int16
+## natural_scenes_2024_1272
+  spikes.npy  (3580, 6950)  int16
+## natural_scenes_2025_1273
+  spikes.npy  (881, 19736)  int16
+## natural_scenes_2026_1274
+  spikes.npy  (3241, 12561)  int16
+## spont_2024_1275
+  spikes.npy  (2545, 11822)  int16
+## spont_2025_1276
+  spikes.npy  (3307, 20257)  int16
+## natural_scenes_2026_1277
+  spikes.npy  (9581, 21728)  int16
+## spont_2024_1278
+  spikes.npy  (6112, 19329)  int16
+## drifting_gratings_2025_1279
+  spikes.npy  (3487, 21546)  int16
+## spont_2026_1280
+  spikes.npy  (9103, 12396)  int16
+## natural_scenes_2024_1281
+  spikes.npy  (4039, 13289)  int16
+## sparse_noise_2025_1282
+  spikes.npy  (9897, 10666)  int16
+## drifting_gratings_2026_1283
+  spikes.npy  (4730, 21524)  int16
+## drifting_gratings_2024_1284
+  spikes.npy  (2356, 4495)  int16
+## spont_2025_1285
+  spikes.npy  (1679, 20003)  int16
+## drifting_gratings_2026_1286
+  spikes.npy  (4556, 6852)  int16
+## drifting_gratings_2024_1287
+  spikes.npy  (3317, 12656)  int16
+## spont_2025_1288
+  spikes.npy  (7746, 16886)  int16
+## spont_2026_1289
+  spikes.npy  (5583, 7956)  int16
+## spont_2024_1290
+  spikes.npy  (11677, 11131)  int16
+## drifting_gratings_2025_1291
+  spikes.npy  (4790, 20808)  int16
+## spont_2026_1292
+  spikes.npy  (4826, 6393)  int16
+## natural_scenes_2024_1293
+  spikes.npy  (2406, 5350)  int16
+## drifting_gratings_2025_1294
+  spikes.npy  (10929, 9724)  int16
+## natural_scenes_2026_1295
+  spikes.npy  (6404, 6752)  int16
+## sparse_noise_2024_1296
+  spikes.npy  (10497, 9990)  int16
+## spont_2025_1297
+  spikes.npy  (6001, 17499)  int16
+## sparse_noise_2026_1298
+  spikes.npy  (1328, 6885)  int16
+## drifting_gratings_2024_1299
+  spikes.npy  (3225, 20757)  int16
+## drifting_gratings_2025_1300
+  spikes.npy  (3277, 15282)  int16
+## drifting_gratings_2026_1301
+  spikes.npy  (4138, 10494)  int16
+## drifting_gratings_2024_1302
+  spikes.npy  (6224, 6191)  int16
+## spont_2025_1303
+  spikes.npy  (8659, 5236)  int16
+## sparse_noise_2026_1304
+  spikes.npy  (9410, 14813)  int16
+## spont_2024_1305
+  spikes.npy  (10687, 6052)  int16
+## drifting_gratings_2025_1306
+  spikes.npy  (11042, 5649)  int16
+## natural_scenes_2026_1307
+  spikes.npy  (7539, 7027)  int16
+## natural_scenes_2024_1308
+  spikes.npy  (10348, 9315)  int16
+## sparse_noise_2025_1309
+  spikes.npy  (11821, 20260)  int16
+## drifting_gratings_2026_1310
+  spikes.npy  (5048, 13927)  int16
+## spont_2024_1311
+  spikes.npy  (8437, 9397)  int16
+## sparse_noise_2025_1312
+  spikes.npy  (7121, 20808)  int16
+## natural_scenes_2026_1313
+  spikes.npy  (10525, 21421)  int16
+## spont_2024_1314
+  spikes.npy  (1914, 12257)  int16
+## drifting_gratings_2025_1315
+  spikes.npy  (4733, 10488)  int16
+## sparse_noise_2026_1316
+  spikes.npy  (10001, 11754)  int16
+## sparse_noise_2024_1317
+  spikes.npy  (10220, 5645)  int16
+## sparse_noise_2025_1318
+  spikes.npy  (11672, 16937)  int16
+## natural_scenes_2026_1319
+  spikes.npy  (7009, 17311)  int16
+## spont_2024_1320
+  spikes.npy  (4541, 15127)  int16
+## sparse_noise_2025_1321
+  spikes.npy  (5793, 4147)  int16
+## natural_scenes_2026_1322
+  spikes.npy  (8812, 4535)  int16
+## spont_2024_1323
+  spikes.npy  (8588, 17718)  int16
+## sparse_noise_2025_1324
+  spikes.npy  (10708, 13812)  int16
+## sparse_noise_2026_1325
+  spikes.npy  (3189, 14990)  int16
+## drifting_gratings_2024_1326
+  spikes.npy  (2161, 15590)  int16
+## sparse_noise_2025_1327
+  spikes.npy  (8433, 5067)  int16
+## natural_scenes_2026_1328
+  spikes.npy  (6302, 6882)  int16
+## natural_scenes_2024_1329
+  spikes.npy  (3868, 18484)  int16
+## sparse_noise_2025_1330
+  spikes.npy  (11629, 21634)  int16
+## drifting_gratings_2026_1331
+  spikes.npy  (2777, 11088)  int16
+## spont_2024_1332
+  spikes.npy  (6954, 10032)  int16
+## sparse_noise_2025_1333
+  spikes.npy  (5247, 14900)  int16
+## drifting_gratings_2026_1334
+  spikes.npy  (6737, 9485)  int16
+## drifting_gratings_2024_1335
+  spikes.npy  (6559, 16922)  int16
+## natural_scenes_2025_1336
+  spikes.npy  (8986, 14436)  int16
+## drifting_gratings_2026_1337
+  spikes.npy  (3457, 16810)  int16
+## spont_2024_1338
+  spikes.npy  (805, 9745)  int16
+## spont_2025_1339
+  spikes.npy  (4828, 18895)  int16
+## natural_scenes_2026_1340
+  spikes.npy  (6572, 7306)  int16
+## sparse_noise_2024_1341
+  spikes.npy  (3012, 12301)  int16
+## sparse_noise_2025_1342
+  spikes.npy  (2043, 20851)  int16
+## natural_scenes_2026_1343
+  spikes.npy  (8076, 12727)  int16
+## natural_scenes_2024_1344
+  spikes.npy  (6728, 14005)  int16
+## sparse_noise_2025_1345
+  spikes.npy  (9355, 5955)  int16
+## sparse_noise_2026_1346
+  spikes.npy  (8882, 15918)  int16
+## spont_2024_1347
+  spikes.npy  (1733, 7901)  int16
+## sparse_noise_2025_1348
+  spikes.npy  (8135, 14195)  int16
+## drifting_gratings_2026_1349
+  spikes.npy  (10746, 19036)  int16
+## spont_2024_1350
+  spikes.npy  (6128, 19809)  int16
+## drifting_gratings_2025_1351
+  spikes.npy  (915, 12895)  int16
+## drifting_gratings_2026_1352
+  spikes.npy  (3874, 20645)  int16
+## spont_2024_1353
+  spikes.npy  (7226, 9687)  int16
+## natural_scenes_2025_1354
+  spikes.npy  (11077, 11921)  int16
+## natural_scenes_2026_1355
+  spikes.npy  (9717, 4845)  int16
+## sparse_noise_2024_1356
+  spikes.npy  (9781, 17355)  int16
+## spont_2025_1357
+  spikes.npy  (11883, 16467)  int16
+## sparse_noise_2026_1358
+  spikes.npy  (6702, 13092)  int16
+## natural_scenes_2024_1359
+  spikes.npy  (3452, 20245)  int16
+## spont_2025_1360
+  spikes.npy  (9522, 15378)  int16
+## drifting_gratings_2026_1361
+  spikes.npy  (4089, 20908)  int16
+## spont_2024_1362
+  spikes.npy  (3456, 14092)  int16
+## drifting_gratings_2025_1363
+  spikes.npy  (11964, 14222)  int16
+## spont_2026_1364
+  spikes.npy  (10421, 13752)  int16
+## sparse_noise_2024_1365
+  spikes.npy  (6700, 10132)  int16
+## natural_scenes_2025_1366
+  spikes.npy  (5869, 19556)  int16
+## drifting_gratings_2026_1367
+  spikes.npy  (10969, 14515)  int16
+## sparse_noise_2024_1368
+  spikes.npy  (7404, 7552)  int16
+## natural_scenes_2025_1369
+  spikes.npy  (6727, 16909)  int16
+## natural_scenes_2026_1370
+  spikes.npy  (7116, 19484)  int16
+## natural_scenes_2024_1371
+  spikes.npy  (2642, 10683)  int16
+## sparse_noise_2025_1372
+  spikes.npy  (9012, 17377)  int16
+## drifting_gratings_2026_1373
+  spikes.npy  (5956, 5440)  int16
+## drifting_gratings_2024_1374
+  spikes.npy  (5369, 21553)  int16
+## sparse_noise_2025_1375
+  spikes.npy  (11635, 17491)  int16
+## spont_2026_1376
+  spikes.npy  (5311, 16833)  int16
+## natural_scenes_2024_1377
+  spikes.npy  (7280, 21345)  int16
+## natural_scenes_2025_1378
+  spikes.npy  (11125, 7968)  int16
+## natural_scenes_2026_1379
+  spikes.npy  (8167, 4384)  int16
+## spont_2024_1380
+  spikes.npy  (9519, 14013)  int16
+## natural_scenes_2025_1381
+  spikes.npy  (10665, 15790)  int16
+## natural_scenes_2026_1382
+  spikes.npy  (4787, 6289)  int16
+## spont_2024_1383
+  spikes.npy  (10675, 17524)  int16
+## spont_2025_1384
+  spikes.npy  (5829, 9436)  int16
+## drifting_gratings_2026_1385
+  spikes.npy  (11185, 7861)  int16
+## sparse_noise_2024_1386
+  spikes.npy  (7263, 15198)  int16
+## sparse_noise_2025_1387
+  spikes.npy  (7231, 20377)  int16
+## natural_scenes_2026_1388
+  spikes.npy  (6529, 10086)  int16
+## drifting_gratings_2024_1389
+  spikes.npy  (9512, 21078)  int16
+## sparse_noise_2025_1390
+  spikes.npy  (11767, 13461)  int16
+## drifting_gratings_2026_1391
+  spikes.npy  (4290, 15099)  int16
+## spont_2024_1392
+  spikes.npy  (7569, 6188)  int16
+## spont_2025_1393
+  spikes.npy  (10201, 11718)  int16
+## sparse_noise_2026_1394
+  spikes.npy  (7413, 11010)  int16
+## natural_scenes_2024_1395
+  spikes.npy  (11933, 8340)  int16
+## drifting_gratings_2025_1396
+  spikes.npy  (4440, 11822)  int16
+## spont_2026_1397
+  spikes.npy  (5430, 5096)  int16
+## sparse_noise_2024_1398
+  spikes.npy  (5510, 8301)  int16
+## sparse_noise_2025_1399
+  spikes.npy  (10832, 13013)  int16

@@ -1,0 +1,73 @@
+site_name: aftersight
+site_description: Local observability built for coding agents to inspect
+site_url: https://nebulaanish.github.io/aftersight/
+repo_url: https://github.com/nebulaanish/aftersight
+repo_name: nebulaanish/aftersight
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+# Kept locally but never published: these paths are untracked, so they exist
+# only in a working copy and must not reach a locally built site.
+exclude_docs: |
+  design/decisions.md
+  superpowers/
+
+nav:
+  - Home: index.md
+  - Why this exists: why.md
+  - Quickstart: quickstart.md
+  - Frameworks: frameworks.md
+  - Navigating runs: navigating.md
+  - Reference:
+      - Python API: reference/api.md
+      - CLI: reference/cli.md
+      - Configuration: reference/configuration.md
+      - Run folder format: reference/run-folder.md
+  - Troubleshooting: troubleshooting.md
+  - Design:
+      - Architecture: design/architecture.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nebulaanish/aftersight

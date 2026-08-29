@@ -1,0 +1,74 @@
+{
+  "run_id": "20260830_014030_3ca8",
+  "session_id": "sess_kaggle_eda_7c",
+  "status": "failed",
+  "framework": "langgraph",
+  "framework_version": "0.6.4",
+  "model": "claude-sonnet-5",
+  "started_at": "2026-08-30T01:40:30.619000+05:45",
+  "ended_at": "2026-08-30T01:40:30.708000+05:45",
+  "wall_sec": 0.09,
+  "active_sec": 0.04,
+  "attempts": 2,
+  "llm_calls": 3,
+  "tool_calls": 4,
+  "tool_calls_by_name": {
+    "web_search": 1,
+    "read_file": 1,
+    "run_python": 2
+  },
+  "errors": [
+    {
+      "seq": 12,
+      "type": "PermissionError",
+      "name": "read_file",
+      "message": "[Errno 13] Permission denied: '/etc/hosts'"
+    },
+    {
+      "seq": 16,
+      "type": "TimeoutError",
+      "name": "run_python",
+      "message": "exceeded 30s wall clock"
+    },
+    {
+      "seq": 22,
+      "type": "TimeoutError",
+      "name": "run_python",
+      "message": "exceeded 30s wall clock"
+    },
+    {
+      "seq": 23,
+      "type": "RuntimeError",
+      "name": "executor",
+      "message": "executor gave up after 2 attempts"
+    }
+  ],
+  "cost": {
+    "input_tokens": 72993,
+    "output_tokens": 2482,
+    "cost_usd": 0.023,
+    "by_agent": {
+      "triage": {
+        "llm_calls": 1,
+        "tool_calls": 0,
+        "input_tokens": 812,
+        "output_tokens": 386,
+        "cost_usd": 0.0005
+      },
+      "planner": {
+        "llm_calls": 1,
+        "tool_calls": 2,
+        "input_tokens": 69340,
+        "output_tokens": 1204,
+        "cost_usd": 0.0121
+      },
+      "executor": {
+        "llm_calls": 1,
+        "tool_calls": 2,
+        "input_tokens": 2841,
+        "output_tokens": 892,
+        "cost_usd": 0.0104
+      }
+    }
+  }
+}
