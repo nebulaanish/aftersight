@@ -8,13 +8,12 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    # Trusted publishing: PyPI verifies this workflow through OIDC, so there is
-    # no API token to store or rotate. Register the publisher on PyPI with
-    # owner nebulaanish, repository aftersight, workflow release.yml and
-    # environment pypi, all four of which must match what is below.
+    # Token auth, because registering a trusted publisher needs a PyPI web
+    # login that is currently unavailable. To move back to OIDC once it is:
+    # register the publisher with owner nebulaanish, repository aftersight,
+    # workflow release.yml and environment pypi, then drop the `with:` block
+    # below and add `permissions: id-token: write` here.
     environment: pypi
-    permissions:
-      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,3 +23,5 @@ jobs:
       - run: python tests/test_formats.py
       - run: python -m build
       - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
