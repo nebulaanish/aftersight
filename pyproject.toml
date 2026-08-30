@@ -9,6 +9,17 @@ description = "Observability infrastructure for self-improving agents"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Balaram", email = "balaramneu@gmail.com" }]
+keywords = ["observability", "agents", "llm", "opentelemetry", "tracing"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Debuggers",
+    "Topic :: System :: Monitoring",
+    "Typing :: Typed",
+]
 dependencies = [
     "opentelemetry-api>=1.20",
     "opentelemetry-sdk>=1.20",
@@ -17,6 +28,12 @@ dependencies = [
 [project.optional-dependencies]
 # mkdocs 2.0 removes the plugin and theming systems that Material depends on.
 docs = ["mkdocs-material>=9.5", "mkdocs<2"]
+
+[project.urls]
+Homepage = "https://github.com/nebulaanish/aftersight"
+Documentation = "https://nebulaanish.github.io/aftersight/"
+Source = "https://github.com/nebulaanish/aftersight"
+Issues = "https://github.com/nebulaanish/aftersight/issues"
 
 [project.scripts]
 aftersight = "aftersight.cli:main"

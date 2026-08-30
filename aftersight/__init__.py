@@ -1,4 +1,4 @@
-"""Telemetry that a coding agent can navigate.
+"""Observability infrastructure for self-improving agents.
 
     import aftersight
     aftersight.start()
