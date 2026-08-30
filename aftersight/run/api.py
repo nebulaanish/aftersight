@@ -33,6 +33,7 @@ class _Disabled:
 
     finalized = True
     artifacts = Path(".")
+    dir = Path(".")
 
     def finalize(self, status: str | None = None) -> dict:
         return {}

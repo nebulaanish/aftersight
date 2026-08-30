@@ -7,7 +7,9 @@
 2. **stdlib `logging`.** Warnings and exceptions from frameworks that only log.
 3. **The explicit API.** For code that does neither.
 
-Most frameworks land in the first path. The rest of this page is per framework.
+Most frameworks land in the first path. The rest of this page is per
+framework, and each section carries a complete starter you can save to one
+file and run. They also live in `examples/starters/` in the repository.
 
 ## Check what you are already getting
 
@@ -24,27 +26,26 @@ and you want an instrumentor or the explicit API. If you see `llm.prompt`,
 
 ## pydantic-ai
 
-Emits OpenTelemetry natively. Nothing extra to install.
+Emits OpenTelemetry natively, so `Agent.instrument_all()` is the only extra
+line. Use `Agent(..., instrument=True)` instead to record one agent.
 
-```python
-import aftersight
-from pydantic_ai import Agent
-
-aftersight.start()
-Agent.instrument_all()          # or Agent(..., instrument=True) per agent
+```python title="pydantic_ai_starter.py"
+--8<-- "examples/starters/pydantic_ai_starter.py"
 ```
 
 ## LangGraph and LangChain
 
-```bash
-pip install openinference-instrumentation-langchain
-```
-
-That is all. `aftersight.start()` activates any OpenInference instrumentor it
-finds installed, and says which ones on stderr:
+`aftersight.start()` activates any OpenInference instrumentor it finds
+installed, and says which ones on stderr:
 
 ```
 aftersight: instrumented langchain
+```
+
+LangChain agents run on LangGraph, so one instrumentor covers both.
+
+```python title="langchain_starter.py"
+--8<-- "examples/starters/langchain_starter.py"
 ```
 
 ## agno
@@ -55,6 +56,15 @@ pip install openinference-instrumentation-agno
 
 Auto-activated the same way.
 
+## OpenAI Agents SDK
+
+Auto-activated the same way, from
+`openinference-instrumentation-openai-agents`.
+
+```python title="openai_agents_starter.py"
+--8<-- "examples/starters/openai_agents_starter.py"
+```
+
 ## Other auto-activated instrumentors
 
 Install the one you need and `start()` will find it:
@@ -63,7 +73,6 @@ Install the one you need and `start()` will find it:
 |---|---|
 | CrewAI | `openinference-instrumentation-crewai` |
 | LlamaIndex | `openinference-instrumentation-llama-index` |
-| OpenAI Agents SDK | `openinference-instrumentation-openai-agents` |
 | smolagents | `openinference-instrumentation-smolagents` |
 
 Nothing is installed on your behalf. Only packages already present are switched
@@ -76,20 +85,12 @@ directly. No instrumentor needed on our side, just start both.
 
 ## Claude Agent SDK
 
-The SDK does not emit in-process OpenTelemetry spans today, so use the explicit
-API. A thin wrapper is usually enough:
+The SDK does not emit in-process OpenTelemetry spans today, so use the
+explicit API. A thin wrapper is enough, and the SDK hands back its own cost
+and turn count to put on the span.
 
-```python
-import aftersight
-from claude_agent_sdk import query
-
-aftersight.start(framework="claude-agent-sdk")
-
-async def ask(prompt: str) -> str:
-    with aftersight.span("claude", kind="agent") as s:
-        chunks = [m async for m in query(prompt=prompt)]
-        s.set(text="".join(str(c) for c in chunks), messages=len(chunks))
-        return s.output
+```python title="claude_agent_sdk_starter.py"
+--8<-- "examples/starters/claude_agent_sdk_starter.py"
 ```
 
 If a future version does emit `gen_ai.*` spans, they are picked up
@@ -98,19 +99,12 @@ automatically and this wrapper becomes redundant.
 ## OpenHands
 
 OpenHands logs heavily and the logging bridge captures WARNING and above as
-`log` and `error` events, which covers failure diagnosis. For structure, wrap
-the loop you care about:
+`log` and `error` events, which covers failure diagnosis. Lower the threshold
+to `logging.INFO` for the full narrative, at the cost of volume, and wrap the
+loop you care about to give the trace some structure.
 
-```python
-with aftersight.span("openhands", kind="agent"):
-    ...
-```
-
-Lower the threshold if you want the full narrative, at the cost of volume:
-
-```python
-import logging
-aftersight.start(log_level=logging.INFO)
+```python title="openhands_starter.py"
+--8<-- "examples/starters/openhands_starter.py"
 ```
 
 ## Anything else

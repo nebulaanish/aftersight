@@ -192,6 +192,18 @@ def test_gitignore_is_only_touched_for_a_dotted_root_inside_the_repo():
             os.chdir(cwd)
 
 
+def test_starters_compile_and_use_the_public_api():
+    """A starter is copied out of the docs and run, so a broken one is a bad
+    first impression rather than a caught error."""
+    starters = sorted((Path(__file__).resolve().parent.parent
+                       / "examples" / "starters").glob("*.py"))
+    assert starters, "the docs snippet every file in examples/starters"
+    for path in starters:
+        source = path.read_text()
+        compile(source, str(path), "exec")
+        assert "aftersight.start(" in source, f"{path.name} never starts a run"
+
+
 def demo() -> None:
     for name, case in sorted(globals().items()):
         if name.startswith("test_"):
