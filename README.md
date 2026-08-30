@@ -1,6 +1,10 @@
 # aftersight
 
-Local observability built for coding agents to inspect.
+Observability infrastructure for self-improving agents.
+
+An agent cannot improve on a run it cannot read. Aftersight writes every
+run into the repository as plain files, so the agent can read its own
+history with the tools it already has.
 
 ## The problem
 

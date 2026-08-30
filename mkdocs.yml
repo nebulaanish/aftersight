@@ -1,5 +1,5 @@
 site_name: aftersight
-site_description: Local observability built for coding agents to inspect
+site_description: Observability infrastructure for self-improving agents
 site_url: https://nebulaanish.github.io/aftersight/
 repo_url: https://github.com/nebulaanish/aftersight
 repo_name: nebulaanish/aftersight

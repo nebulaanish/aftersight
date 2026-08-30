@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "aftersight"
 version = "0.1.0"
-description = "Local observability built for coding agents to inspect"
+description = "Observability infrastructure for self-improving agents"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"

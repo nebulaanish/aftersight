@@ -1,11 +1,14 @@
 # aftersight
 
-Local observability built for coding agents to inspect.
+Observability infrastructure for self-improving agents.
 
-Aftersight records agent runs as readable and machine-readable files inside the
-repository. A coding agent can use its normal file and shell tools to diagnose
-one failed run, find recurring failures and inspect exact model or tool inputs
-and outputs.
+An agent cannot improve on a run it cannot read. Aftersight writes every
+run into the repository as plain files, so the agent can read its own
+history with the tools it already has.
+
+Those files are readable by a person and machine-readable by a client. An agent
+uses its normal file and shell tools to diagnose one failed run, find recurring
+failures and inspect exact model or tool inputs and outputs.
 
 ```bash
 pip install aftersight
