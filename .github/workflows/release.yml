@@ -1,0 +1,26 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    # Trusted publishing: PyPI verifies this workflow through OIDC, so there is
+    # no API token to store or rotate. Register the publisher on PyPI with
+    # owner nebulaanish, repository aftersight, workflow release.yml and
+    # environment pypi, all four of which must match what is below.
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e . build
+      - run: python tests/test_formats.py
+      - run: python -m build
+      - uses: pypa/gh-action-pypi-publish@release/v1
