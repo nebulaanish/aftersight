@@ -1,12 +1,14 @@
 """aftersight + the OpenAI Agents SDK, in one file.
 
-    pip install aftersight openai-agents openinference-instrumentation-openai-agents
+    pip install "aftersight[openai-agents]" openai-agents
     export OPENAI_API_KEY=sk-...
     python openai_agents_starter.py
 
 `aftersight.start()` switches on any OpenInference instrumentor it finds
 installed, so the agent loop and its tool calls are captured without a line
-of framework-specific code. Nothing is installed on your behalf.
+of framework-specific code. The `[openai-agents]` extra above is what puts
+that instrumentor there; without it the run records no llm or tool calls and
+`start()` says so on stderr. Nothing is installed at runtime on your behalf.
 """
 
 import aftersight

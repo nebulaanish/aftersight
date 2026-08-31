@@ -26,6 +26,12 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+agno = ["openinference-instrumentation-agno"]
+langchain = ["openinference-instrumentation-langchain"]
+crewai = ["openinference-instrumentation-crewai"]
+llama-index = ["openinference-instrumentation-llama-index"]
+openai-agents = ["openinference-instrumentation-openai-agents"]
+smolagents = ["openinference-instrumentation-smolagents"]
 # mkdocs 2.0 removes the plugin and theming systems that Material depends on.
 docs = ["mkdocs-material>=9.5", "mkdocs<2"]
 

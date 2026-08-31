@@ -7,6 +7,7 @@ agent silently gets wrong answers, which is worse than a crash.
 
 from __future__ import annotations
 
+import importlib
 import json
 import os
 import re
@@ -202,6 +203,40 @@ def test_starters_compile_and_use_the_public_api():
         source = path.read_text()
         compile(source, str(path), "exec")
         assert "aftersight.start(" in source, f"{path.name} never starts a run"
+
+
+def test_a_named_framework_without_its_instrumentor_says_so():
+    """An empty run reads as a broken tool, so the missing package is named."""
+    from aftersight.integrations import otel
+
+    class _Run:
+        framework = "ghost"
+        config = type("C", (), {"quiet": True})()
+
+    said, original = [], otel.announce
+    otel.constants.INSTRUMENTORS = [
+        ("openinference.instrumentation.no_such_thing", "X", "ghost")]
+    otel.announce = said.append
+    try:
+        otel._auto_instrument(None, _Run())
+    finally:
+        otel.announce = original
+        importlib.reload(otel.constants)
+
+    assert said, "a missing instrumentor was not reported"
+    assert 'pip install "aftersight[ghost]"' in said[0], said
+
+
+def test_every_instrumentor_has_the_extra_its_warning_names():
+    """The warning tells you to install `aftersight[<framework>]`, so every
+    framework in the table needs that extra, wired to the right distribution."""
+    from aftersight import constants
+
+    pyproject = (Path(__file__).resolve().parent.parent / "pyproject.toml").read_text()
+    for module_path, _, label in constants.INSTRUMENTORS:
+        distribution = module_path.replace(".", "-").replace("_", "-")
+        assert f'{label} = ["{distribution}"]' in pyproject, (
+            f"pyproject has no [{label}] extra installing {distribution}")
 
 
 def demo() -> None:

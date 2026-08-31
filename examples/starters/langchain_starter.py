@@ -1,7 +1,6 @@
 """aftersight + LangChain agents, which run on LangGraph, in one file.
 
-    pip install aftersight langchain langchain-openai \
-        openinference-instrumentation-langchain
+    pip install "aftersight[langchain]" langchain langchain-openai
     export OPENAI_API_KEY=sk-...
     python langchain_starter.py
 

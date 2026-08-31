@@ -24,6 +24,14 @@ If you see only `run.start` and `run.end`, nothing was captured automatically
 and you want an instrumentor or the explicit API. If you see `llm.prompt`,
 `tool.call` and `agent.start`, you are done.
 
+Passing `framework=` to `start()` makes this check unnecessary: a framework whose
+instrumentor is missing is reported on stderr as the run begins, rather than
+found later in an empty trace.
+
+```
+aftersight: openai-agents will not be traced, its instrumentor is not installed: pip install "aftersight[openai-agents]"
+```
+
 ## pydantic-ai
 
 Emits OpenTelemetry natively, so `Agent.instrument_all()` is the only extra
@@ -51,15 +59,14 @@ LangChain agents run on LangGraph, so one instrumentor covers both.
 ## agno
 
 ```bash
-pip install openinference-instrumentation-agno
+pip install "aftersight[agno]"
 ```
 
 Auto-activated the same way.
 
 ## OpenAI Agents SDK
 
-Auto-activated the same way, from
-`openinference-instrumentation-openai-agents`.
+Auto-activated the same way, from the `[openai-agents]` extra.
 
 ```python title="openai_agents_starter.py"
 --8<-- "examples/starters/openai_agents_starter.py"
@@ -69,11 +76,11 @@ Auto-activated the same way, from
 
 Install the one you need and `start()` will find it:
 
-| Framework | Package |
+| Framework | Install |
 |---|---|
-| CrewAI | `openinference-instrumentation-crewai` |
-| LlamaIndex | `openinference-instrumentation-llama-index` |
-| smolagents | `openinference-instrumentation-smolagents` |
+| CrewAI | `pip install "aftersight[crewai]"` |
+| LlamaIndex | `pip install "aftersight[llama-index]"` |
+| smolagents | `pip install "aftersight[smolagents]"` |
 
 Nothing is installed on your behalf. Only packages already present are switched
 on.

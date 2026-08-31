@@ -27,6 +27,7 @@ from aftersight import constants
 from aftersight.constants import EventType
 from aftersight.utils import announce, log_debug
 
+
 def _attr(span: ReadableSpan, *keys: str) -> Any:
     attributes = span.attributes or {}
     for key in keys:
@@ -94,8 +95,11 @@ def _kind(span: ReadableSpan) -> str:
 
 
 def _tokens(span: ReadableSpan, direction: str) -> int | None:
-    names = (constants.INPUT_TOKEN_ATTRS if direction == "input"
-             else constants.OUTPUT_TOKEN_ATTRS)
+    names = (
+        constants.INPUT_TOKEN_ATTRS
+        if direction == "input"
+        else constants.OUTPUT_TOKEN_ATTRS
+    )
     value = _attr(span, *names)
     return int(value) if value is not None else None
 
@@ -127,8 +131,9 @@ class TelemetrySpanProcessor(SpanProcessor):
         try:
             if not _declared_container(span):
                 return
-            event = self.run.sink.emit(EventType.AGENT_START, span.name,
-                                       parent_seq=self._parent_seq(span))
+            event = self.run.sink.emit(
+                EventType.AGENT_START, span.name, parent_seq=self._parent_seq(span)
+            )
             self._container_seq[span.context.span_id] = event.seq
         except Exception as exc:  # noqa: BLE001
             log_debug(f"on_start failed for {span.name}: {exc}")
@@ -148,47 +153,82 @@ class TelemetrySpanProcessor(SpanProcessor):
         if kind == "llm":
             text, messages = _prompt(span)
             call = self.run.sink.emit(
-                EventType.LLM_PROMPT, span.name, parent_seq=parent_seq,
-                ts=(span.start_time or 0) / 1e9, messages=messages or None,
-                tokens_in=_tokens(span, "input"), text=text,
-                model=_attr(span, *constants.MODEL_ATTRS))
+                EventType.LLM_PROMPT,
+                span.name,
+                parent_seq=parent_seq,
+                ts=(span.start_time or 0) / 1e9,
+                messages=messages or None,
+                tokens_in=_tokens(span, "input"),
+                text=text,
+                model=_attr(span, *constants.MODEL_ATTRS),
+            )
             self.run.sink.emit(
-                EventType.LLM_RESPONSE, span.name, parent_seq=call.seq,
-                status="error" if failed else "ok", dur_ms=_duration_ms(span),
-                tokens_out=_tokens(span, "output"), text=_completion(span),
+                EventType.LLM_RESPONSE,
+                span.name,
+                parent_seq=call.seq,
+                status="error" if failed else "ok",
+                dur_ms=_duration_ms(span),
+                tokens_out=_tokens(span, "output"),
+                text=_completion(span),
                 stop_reason=_attr(span, *constants.FINISH_REASON_ATTRS),
                 cost_usd=_attr(span, *constants.COST_ATTRS),
-                error=message)
+                error=message,
+            )
         elif kind == "tool":
             name = str(_attr(span, *constants.TOOL_NAME_ATTRS) or span.name)
             call = self.run.sink.emit(
-                EventType.TOOL_CALL, name, parent_seq=parent_seq,
+                EventType.TOOL_CALL,
+                name,
+                parent_seq=parent_seq,
                 ts=(span.start_time or 0) / 1e9,
                 args={"input": _attr(span, *constants.TOOL_ARG_ATTRS)}
-                if _attr(span, *constants.TOOL_ARG_ATTRS) else None)
+                if _attr(span, *constants.TOOL_ARG_ATTRS)
+                else None,
+            )
             if failed:
-                self.run.sink.emit(EventType.TOOL_ERROR, name, parent_seq=call.seq,
-                                   status="error", dur_ms=_duration_ms(span),
-                                   error_type=_error_type(span), error=message or "")
+                self.run.sink.emit(
+                    EventType.TOOL_ERROR,
+                    name,
+                    parent_seq=call.seq,
+                    status="error",
+                    dur_ms=_duration_ms(span),
+                    error_type=_error_type(span),
+                    error=message or "",
+                )
             else:
-                self.run.sink.emit(EventType.TOOL_RESULT, name, parent_seq=call.seq,
-                                   status="ok", dur_ms=_duration_ms(span),
-                                   text=_completion(span))
+                self.run.sink.emit(
+                    EventType.TOOL_RESULT,
+                    name,
+                    parent_seq=call.seq,
+                    status="ok",
+                    dur_ms=_duration_ms(span),
+                    text=_completion(span),
+                )
         else:
             seq = self._container_seq.pop(span.context.span_id, None)
             if seq is None:
-                # Undeclared at start, container at end: open and close it here so
-                # the pair is never dangling.
-                seq = self.run.sink.emit(EventType.AGENT_START, span.name,
-                                         parent_seq=parent_seq,
-                                         ts=(span.start_time or 0) / 1e9).seq
-            self.run.sink.emit(EventType.AGENT_END, span.name, parent_seq=parent_seq,
-                               status="error" if failed else "ok",
-                               dur_ms=_duration_ms(span))
+                seq = self.run.sink.emit(
+                    EventType.AGENT_START,
+                    span.name,
+                    parent_seq=parent_seq,
+                    ts=(span.start_time or 0) / 1e9,
+                ).seq
+            self.run.sink.emit(
+                EventType.AGENT_END,
+                span.name,
+                parent_seq=parent_seq,
+                status="error" if failed else "ok",
+                dur_ms=_duration_ms(span),
+            )
             if failed and seq is not None:
-                self.run.sink.emit(EventType.ERROR, span.name, parent_seq=seq,
-                                   status="error", error_type=_error_type(span),
-                                   error=message or "")
+                self.run.sink.emit(
+                    EventType.ERROR,
+                    span.name,
+                    parent_seq=seq,
+                    status="error",
+                    error_type=_error_type(span),
+                    error=message or "",
+                )
 
     def shutdown(self) -> None:
         return None
@@ -204,7 +244,7 @@ def _error_type(span: ReadableSpan) -> str:
     return "Error"
 
 
-_PROCESSOR: "TelemetrySpanProcessor | None" = None
+_PROCESSOR: TelemetrySpanProcessor | None = None
 
 
 def setup_tracing(run) -> None:
@@ -234,11 +274,12 @@ def _auto_instrument(provider, run) -> None:
     """Activates OpenInference instrumentors that are already installed. Nothing
     is installed on the user's behalf; frameworks that emit OTel natively
     (pydantic-ai, Traceloop-instrumented apps) need none of this."""
-    active = []
+    active, missing = [], {}
     for module_path, class_name, label in constants.INSTRUMENTORS:
         try:
             module = __import__(module_path, fromlist=[class_name])
         except ImportError:
+            missing[label] = module_path
             continue
         try:
             getattr(module, class_name)().instrument(tracer_provider=provider)
@@ -247,3 +288,8 @@ def _auto_instrument(provider, run) -> None:
             log_debug(f"could not instrument {label}: {exc}")
     if active and not run.config.quiet:
         announce(f"instrumented {', '.join(active)}")
+    if run.framework in missing:
+        announce(
+            f"{run.framework} will not be traced, its instrumentor is not "
+            f'installed: pip install "aftersight[{run.framework}]"'
+        )

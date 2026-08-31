@@ -50,6 +50,7 @@ class Run:
                  tags: tuple[str, ...] = (), **meta: Any):
         self.config = config
         self.session_id = session_id
+        self.framework = meta.get("framework")
         self.root = store.ensure_root(config.root)
         self.finalized = False
         self._started = time.time()

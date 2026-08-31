@@ -28,6 +28,17 @@ aftersight run python my_agent.py
 
 No account, API key, service or initialization step is required.
 
+Frameworks that do not emit OpenTelemetry themselves are traced through an
+instrumentor, installed as an extra:
+
+```bash
+pip install "aftersight[openai-agents]"
+```
+
+Pass `framework="openai-agents"` to `start()` and a missing one is reported on
+stderr as the run begins, instead of surfacing later as an empty trace. See
+[frameworks](docs/frameworks.md) for the full list.
+
 ## Ask your coding agent
 
 Each telemetry root includes a `NAVIGATE.md` with verified `rg` and `jq`
