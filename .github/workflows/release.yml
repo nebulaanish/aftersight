@@ -1,9 +1,17 @@
 name: release
 
+# Merging to main publishes, but only when aftersight/__init__.py:__version__
+# names a version PyPI does not already have. Every other merge builds, tests
+# and then skips the upload, so no commit needs to know whether it is a release.
 on:
   push:
-    tags: ["v*"]
+    branches: [main]
   workflow_dispatch:
+
+# Two merges in quick succession would otherwise build and upload concurrently.
+concurrency:
+  group: release
+  cancel-in-progress: false
 
 jobs:
   publish:
@@ -25,3 +33,5 @@ jobs:
       - uses: pypa/gh-action-pypi-publish@release/v1
         with:
           password: ${{ secrets.PYPI_API_TOKEN }}
+          # The version is already on PyPI: this merge did not bump it.
+          skip-existing: true
