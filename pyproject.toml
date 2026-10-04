@@ -4,7 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aftersight"
-version = "0.1.0"
+# Single source of truth: aftersight/__init__.py:__version__. Bumping that one
+# line and merging to main is what publishes a release.
+dynamic = ["version"]
 description = "Observability infrastructure for self-improving agents"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -43,6 +45,9 @@ Issues = "https://github.com/nebulaanish/aftersight/issues"
 
 [project.scripts]
 aftersight = "aftersight.cli:main"
+
+[tool.hatch.version]
+path = "aftersight/__init__.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["aftersight"]
