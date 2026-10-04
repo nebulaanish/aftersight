@@ -18,4 +18,4 @@ from aftersight.run.api import (
 )
 
 __all__ = ["start", "span", "trace", "log", "current", "artifact_dir"]
-__version__ = "0.1.0"
+__version__ = "0.2.0"
