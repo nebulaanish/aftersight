@@ -1,0 +1,21 @@
+name: test
+
+# release.yml runs the same tests, but only after a merge to main. This catches
+# a break while it is still a pull request.
+on:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # The requires-python floor and the version release.yml builds with.
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -e .
+      - run: python tests/test_formats.py
