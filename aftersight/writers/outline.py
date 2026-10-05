@@ -1,6 +1,4 @@
-"""`outline.md`, the folded map an agent reads first.
-
-Thirty lines that explain a five-thousand-line run, every row carrying the
+"""`outline.md`, the folded map an agent reads first. Every row carries the
 `#seq` anchor to jump to in `agent.logs`.
 """
 

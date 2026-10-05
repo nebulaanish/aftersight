@@ -1,22 +1,15 @@
-"""OpenTelemetry bridge, the reason this works with frameworks it has never
-heard of.
-
-A `SpanProcessor`, not a `SpanExporter`. Exporters only see a span when it ends,
+"""A `SpanProcessor`, not a `SpanExporter`. Exporters only see a span when it ends,
 and a parent ends after its children, so an exporter-built transcript comes out
 inside-out. `on_start` lets container spans open in the right place.
 
 Leaf spans (an LLM call, a tool call) emit both of their events at end, because
 that is when the prompt, the completion and the token counts are actually on the
 span. They are leaves, so nothing nests underneath them and nothing is misplaced.
-
-Three attribute dialects are read: OpenTelemetry `gen_ai.*` semantic
-conventions (pydantic-ai, Traceloop), OpenInference `llm.*` / `openinference.*`
-(agno, LangChain, LangGraph), and a generic `input.value` / `output.value`
-fallback.
 """
 
 from __future__ import annotations
 
+import json
 from typing import Any
 
 from opentelemetry import trace as trace_api
@@ -51,8 +44,48 @@ def _indexed(span: ReadableSpan, *templates: str) -> tuple[str | None, int]:
     return None, 0
 
 
+def _part(part: dict) -> str:
+    kind = part.get("type", "text")
+    if kind == "tool_call":
+        args = part.get("arguments")
+        return f"tool_call {part.get('name')}({args if isinstance(args, str) else json.dumps(args)})"
+    body = part.get("content", part.get("response", part.get("result", "")))
+    body = body if isinstance(body, str) else json.dumps(body)
+    return body if kind == "text" or not body else f"{kind}: {body}"
+
+
+def _messages(span: ReadableSpan, *keys: str) -> tuple[str | None, int]:
+    raw = _attr(span, *keys)
+    if raw is None:
+        return None, 0
+    try:
+        messages = json.loads(raw) if isinstance(raw, str) else raw
+        blocks = []
+        for message in messages:
+            body = "\n".join(filter(None, map(_part, message.get("parts", []))))
+            if body:
+                blocks.append(f"[{message.get('role')}]\n{body}")
+    except (ValueError, TypeError, AttributeError):
+        return str(raw), 1
+    return "\n\n".join(blocks) or None, len(messages)
+
+
+def _function_calls(span: ReadableSpan) -> str | None:
+    attributes = span.attributes or {}
+    calls = []
+    for index in range(constants.MAX_INDEXED_MESSAGES):
+        prefix = constants.FUNCTION_CALL_TEMPLATE.format(i=index)
+        if prefix + "name" not in attributes:
+            break
+        calls.append(f"tool_call {attributes[prefix + 'name']}({attributes.get(prefix + 'arguments', '')})")
+    return "\n".join(calls) or None
+
+
 def _prompt(span: ReadableSpan) -> tuple[str | None, int]:
     text, count = _indexed(span, *constants.PROMPT_TEMPLATES)
+    if text:
+        return text, count
+    text, count = _messages(span, *constants.INPUT_MESSAGES_ATTRS)
     if text:
         return text, count
     single = _attr(span, *constants.PROMPT_ATTRS)
@@ -61,6 +94,10 @@ def _prompt(span: ReadableSpan) -> tuple[str | None, int]:
 
 def _completion(span: ReadableSpan) -> str | None:
     text, _ = _indexed(span, *constants.COMPLETION_TEMPLATES)
+    if text:
+        return text
+    text = "\n\n".join(filter(None, (_messages(span, *constants.OUTPUT_MESSAGES_ATTRS)[0],
+                                     _function_calls(span))))
     if text:
         return text
     single = _attr(span, *constants.COMPLETION_ATTRS)

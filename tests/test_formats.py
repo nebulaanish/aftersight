@@ -171,6 +171,40 @@ def test_zero_code_change_wrapper_records():
         assert {"run.start", "agent.start", "agent.end", "run.end"} <= types
 
 
+def _llm_span_logs(tmp: Path, attributes: dict) -> str:
+    from opentelemetry import trace
+    run = _fresh(tmp)
+    with trace.get_tracer("t").start_as_current_span("chat", attributes={
+            "gen_ai.operation.name": "chat", **attributes}):
+        pass
+    run.finalize()
+    return (Path(run.dir) / "agent.logs").read_text()
+
+
+def test_llm_span_with_gen_ai_messages_records_prompt_and_reply():
+    """pydantic-ai and LiteLLM put the conversation in one JSON attribute."""
+    with tempfile.TemporaryDirectory() as tmp:
+        logs = _llm_span_logs(Path(tmp), {
+            "gen_ai.input.messages": json.dumps([
+                {"role": "user", "parts": [{"type": "text", "content": "why did it fail"}]}]),
+            "gen_ai.output.messages": json.dumps([
+                {"role": "assistant", "parts": [{"type": "text", "content": "a timeout"}]}]),
+        })
+        assert "why did it fail" in logs
+        assert "a timeout" in logs
+
+
+def test_llm_span_with_only_a_function_call_records_the_call():
+    """LiteLLM leaves the output parts empty and reports tool calls elsewhere."""
+    with tempfile.TemporaryDirectory() as tmp:
+        logs = _llm_span_logs(Path(tmp), {
+            "gen_ai.output.messages": json.dumps([{"role": "assistant", "parts": []}]),
+            "gen_ai.completion.0.function_call.name": "file_editor",
+            "gen_ai.completion.0.function_call.arguments": '{"path": "hello.txt"}',
+        })
+        assert 'file_editor({"path": "hello.txt"})' in logs
+
+
 def test_gitignore_is_only_touched_for_a_dotted_root_inside_the_repo():
     """A stray root must not append a line to the project's .gitignore."""
     with tempfile.TemporaryDirectory() as tmp:
