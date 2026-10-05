@@ -99,6 +99,13 @@ PROMPT_TEMPLATES = ("gen_ai.prompt.{i}.content", "llm.input_messages.{i}.message
 COMPLETION_TEMPLATES = ("gen_ai.completion.{i}.content",
                         "llm.output_messages.{i}.message.content")
 
+#: Current GenAI semconv: the whole conversation as one JSON list of
+#: `{"role", "parts": [...]}` messages (pydantic-ai, LiteLLM).
+INPUT_MESSAGES_ATTRS = ("gen_ai.input.messages",)
+OUTPUT_MESSAGES_ATTRS = ("gen_ai.output.messages",)
+#: LiteLLM reports a reply's tool calls here and leaves the output parts empty.
+FUNCTION_CALL_TEMPLATE = "gen_ai.completion.{i}.function_call."
+
 PROMPT_ATTRS = ("gen_ai.prompt", "input.value", "llm.prompts")
 COMPLETION_ATTRS = ("gen_ai.completion", "output.value")
 MODEL_ATTRS = ("gen_ai.request.model", "llm.model_name")

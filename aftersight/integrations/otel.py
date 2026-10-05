@@ -17,6 +17,7 @@ fallback.
 
 from __future__ import annotations
 
+import json
 from typing import Any
 
 from opentelemetry import trace as trace_api
@@ -51,8 +52,48 @@ def _indexed(span: ReadableSpan, *templates: str) -> tuple[str | None, int]:
     return None, 0
 
 
+def _part(part: dict) -> str:
+    kind = part.get("type", "text")
+    if kind == "tool_call":
+        args = part.get("arguments")
+        return f"tool_call {part.get('name')}({args if isinstance(args, str) else json.dumps(args)})"
+    body = part.get("content", part.get("response", part.get("result", "")))
+    body = body if isinstance(body, str) else json.dumps(body)
+    return body if kind == "text" or not body else f"{kind}: {body}"
+
+
+def _messages(span: ReadableSpan, *keys: str) -> tuple[str | None, int]:
+    raw = _attr(span, *keys)
+    if raw is None:
+        return None, 0
+    try:
+        messages = json.loads(raw) if isinstance(raw, str) else raw
+        blocks = []
+        for message in messages:
+            body = "\n".join(filter(None, map(_part, message.get("parts", []))))
+            if body:
+                blocks.append(f"[{message.get('role')}]\n{body}")
+    except (ValueError, TypeError, AttributeError):
+        return str(raw), 1
+    return "\n\n".join(blocks) or None, len(messages)
+
+
+def _function_calls(span: ReadableSpan) -> str | None:
+    attributes = span.attributes or {}
+    calls = []
+    for index in range(constants.MAX_INDEXED_MESSAGES):
+        prefix = constants.FUNCTION_CALL_TEMPLATE.format(i=index)
+        if prefix + "name" not in attributes:
+            break
+        calls.append(f"tool_call {attributes[prefix + 'name']}({attributes.get(prefix + 'arguments', '')})")
+    return "\n".join(calls) or None
+
+
 def _prompt(span: ReadableSpan) -> tuple[str | None, int]:
     text, count = _indexed(span, *constants.PROMPT_TEMPLATES)
+    if text:
+        return text, count
+    text, count = _messages(span, *constants.INPUT_MESSAGES_ATTRS)
     if text:
         return text, count
     single = _attr(span, *constants.PROMPT_ATTRS)
@@ -61,6 +102,10 @@ def _prompt(span: ReadableSpan) -> tuple[str | None, int]:
 
 def _completion(span: ReadableSpan) -> str | None:
     text, _ = _indexed(span, *constants.COMPLETION_TEMPLATES)
+    if text:
+        return text
+    text = "\n\n".join(filter(None, (_messages(span, *constants.OUTPUT_MESSAGES_ATTRS)[0],
+                                     _function_calls(span))))
     if text:
         return text
     single = _attr(span, *constants.COMPLETION_ATTRS)
