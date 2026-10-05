@@ -1,9 +1,3 @@
-"""Two commands. Anything else `rg` and `jq` already do better.
-
-    aftersight run python my_agent.py     # record, no code change
-    aftersight skill                      # teach your coding agent to read it
-"""
-
 from __future__ import annotations
 
 import argparse

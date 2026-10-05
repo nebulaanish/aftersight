@@ -1,10 +1,3 @@
-"""The public surface. Three things to learn, and only the first is required.
-
-    aftersight.start()                       # capture everything
-    with aftersight.span("web_search", kind="tool") as s: ...
-    aftersight.log("cache miss", key=key)
-"""
-
 from __future__ import annotations
 
 import atexit

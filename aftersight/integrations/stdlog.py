@@ -1,6 +1,4 @@
-"""stdlib `logging` bridge.
-
-Frameworks that emit no spans still log, and a warning or an exception is
+"""Frameworks that emit no spans still log, and a warning or an exception is
 exactly the thing worth having in the trace. WARNING and above by default,
 because capturing INFO from a whole dependency tree would bury the run.
 """

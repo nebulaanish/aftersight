@@ -1,18 +1,10 @@
-"""OpenTelemetry bridge, the reason this works with frameworks it has never
-heard of.
-
-A `SpanProcessor`, not a `SpanExporter`. Exporters only see a span when it ends,
+"""A `SpanProcessor`, not a `SpanExporter`. Exporters only see a span when it ends,
 and a parent ends after its children, so an exporter-built transcript comes out
 inside-out. `on_start` lets container spans open in the right place.
 
 Leaf spans (an LLM call, a tool call) emit both of their events at end, because
 that is when the prompt, the completion and the token counts are actually on the
 span. They are leaves, so nothing nests underneath them and nothing is misplaced.
-
-Three attribute dialects are read: OpenTelemetry `gen_ai.*` semantic
-conventions (pydantic-ai, Traceloop), OpenInference `llm.*` / `openinference.*`
-(agno, LangChain, LangGraph), and a generic `input.value` / `output.value`
-fallback.
 """
 
 from __future__ import annotations

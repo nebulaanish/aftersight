@@ -1,6 +1,4 @@
-"""The read side and the root directory itself.
-
-Pointers (`latest`, `sessions/`) live outside `runs/` so that a `runs/*/...`
+"""Pointers (`latest`, `sessions/`) live outside `runs/` so that a `runs/*/...`
 glob cannot count the same run twice through a symlink.
 """
 

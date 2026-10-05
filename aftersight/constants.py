@@ -120,8 +120,7 @@ OUTPUT_TOKEN_ATTRS = ("gen_ai.usage.output_tokens", "gen_ai.usage.completion_tok
 
 MAX_INDEXED_MESSAGES = 64
 
-#: OpenInference instrumentors activated when already installed. Nothing is
-#: installed on the user's behalf.
+#: OpenInference instrumentors activated when already installed.
 INSTRUMENTORS = [
     ("openinference.instrumentation.agno", "AgnoInstrumentor", "agno"),
     ("openinference.instrumentation.langchain", "LangChainInstrumentor", "langchain"),
