@@ -105,10 +105,16 @@ automatically and this wrapper becomes redundant.
 
 ## OpenHands
 
-OpenHands logs heavily and the logging bridge captures WARNING and above as
-`log` and `error` events, which covers failure diagnosis. Lower the threshold
-to `logging.INFO` for the full narrative, at the cost of volume, and wrap the
-loop you care about to give the trace some structure.
+OpenHands emits no OpenTelemetry, but its model calls go through LiteLLM.
+Setting `litellm.callbacks = ["otel"]` after `aftersight.start()` records each
+one as `llm.prompt` and `llm.response`. The OpenInference LiteLLM
+instrumentor does not work here, because OpenHands keeps its own reference to
+`litellm.completion`.
+
+The rest arrives through the logging bridge, which captures WARNING and above
+as `log` and `error` events. Lower the threshold to `logging.INFO` for the
+full narrative, at the cost of volume, and wrap the loop you care about to
+give the trace some structure.
 
 ```python title="openhands_starter.py"
 --8<-- "examples/starters/openhands_starter.py"
