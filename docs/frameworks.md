@@ -111,6 +111,12 @@ one as `llm.prompt` and `llm.response`. The OpenInference LiteLLM
 instrumentor does not work here, because OpenHands keeps its own reference to
 `litellm.completion`.
 
+Tool calls need `callbacks=[record_tools]` on the `Conversation`, from
+`aftersight.integrations.openhands`. It records each one as `tool.call` with
+its result or error, so a run of failing tools is not summarised as `ok, 0
+tool, 0 errors`. OpenHands' own tool spans come from Laminar, which exports
+off the machine.
+
 The rest arrives through the logging bridge, which captures WARNING and above
 as `log` and `error` events. Lower the threshold to `logging.INFO` for the
 full narrative, at the cost of volume, and wrap the loop you care about to
