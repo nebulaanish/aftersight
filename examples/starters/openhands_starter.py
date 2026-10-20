@@ -8,9 +8,11 @@ OpenHands emits no OpenTelemetry itself, but its model calls go through
 LiteLLM, and LiteLLM's "otel" callback reports each one to the tracer
 `aftersight.start()` set up. The OpenInference LiteLLM instrumentor cannot do
 this: OpenHands holds its own reference to `litellm.completion`, which the
-instrumentor never patches. Everything else arrives through the logging
-bridge, and `log_level=logging.INFO` keeps the whole story instead of only
-the warnings and errors captured by default, at the cost of a larger trace.
+instrumentor never patches. Tool calls arrive through `record_tools`, an
+OpenHands conversation callback. Everything else arrives through the
+logging bridge, and `log_level=logging.INFO` keeps the whole story instead
+of only the warnings and errors captured by default, at the cost of a larger
+trace.
 """
 
 import logging
@@ -18,6 +20,7 @@ import os
 
 import aftersight
 import litellm
+from aftersight.integrations.openhands import record_tools
 from openhands.sdk import LLM, Agent, Conversation, Tool
 from openhands.tools.file_editor import FileEditorTool
 from pydantic import SecretStr
@@ -35,7 +38,8 @@ def main() -> None:
             # Absolute, because the file editor rejects relative paths and the
             # agent is told this path as its working directory.
             conversation = Conversation(agent=agent,
-                                        workspace=os.path.abspath("workspace"))
+                                        workspace=os.path.abspath("workspace"),
+                                        callbacks=[record_tools])
             conversation.send_message("Write hello.txt containing the word hello.")
             conversation.run()
 

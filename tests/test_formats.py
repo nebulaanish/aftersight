@@ -205,6 +205,39 @@ def test_llm_span_with_only_a_function_call_records_the_call():
         assert 'file_editor({"path": "hello.txt"})' in logs
 
 
+def _openhands_events(tmp: Path, observation) -> dict:
+    """Stand-ins with the fields OpenHands' ActionEvent and ObservationEvent carry."""
+    from types import SimpleNamespace
+    from aftersight.integrations.openhands import record_tools
+    run = _fresh(tmp)
+    record_tools(SimpleNamespace(
+        tool_name="file_editor", tool_call_id="call_1",
+        action=SimpleNamespace(model_dump=lambda **_: {"path": "/workspace/hello.txt"})))
+    record_tools(SimpleNamespace(tool_name="file_editor", tool_call_id="call_1",
+                                 observation=observation))
+    run.finalize()
+    return json.loads((Path(run.dir) / "analytics.json").read_text())
+
+
+def test_openhands_failed_tool_is_counted_as_a_tool_call_and_an_error():
+    """Without this a run of failing tools summarises as "ok, 0 tool, 0 errors"."""
+    from types import SimpleNamespace
+    with tempfile.TemporaryDirectory() as tmp:
+        analytics = _openhands_events(Path(tmp), SimpleNamespace(
+            is_error=True, text="The path /workspace does not exist."))
+        assert analytics["tool_calls"] == 1
+        assert [e["message"] for e in analytics["errors"]] == ["The path /workspace does not exist."]
+
+
+def test_openhands_successful_tool_records_its_result():
+    from types import SimpleNamespace
+    with tempfile.TemporaryDirectory() as tmp:
+        _openhands_events(Path(tmp), SimpleNamespace(is_error=False, text="File created."))
+        results = [e for e in read_events(next(Path(tmp).glob("runs/*")))
+                   if e.type == "tool.result"]
+        assert [e.payload.get("text") for e in results] == ["File created."]
+
+
 def test_gitignore_is_only_touched_for_a_dotted_root_inside_the_repo():
     """A stray root must not append a line to the project's .gitignore."""
     with tempfile.TemporaryDirectory() as tmp:
